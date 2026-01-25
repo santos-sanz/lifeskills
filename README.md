@@ -1,70 +1,55 @@
 # Lifeskills
 
-Non-coding skills for AI agents. This repo focuses on negotiation, persuasion, and consulting analysis frameworks. Skills follow the Agent Skills format and are written in English.
+A curated collection of non-coding skills for AI agents, focusing on high-impact soft skills such as negotiation, persuasion, structured communication, and consulting frameworks. These skills follow the standard Agent Skills format and are designed to enhance agent capabilities in business and interpersonal contexts.
 
-Language: English only.
+**Language:** English
 
 ## Available Skills
 
-### negotiation-voss-tactical-empathy
-Tactical empathy negotiation based on Chris Voss.
+### Negotiation & Influence
 
-Use when:
-- Preparing salary, vendor, or contract negotiations
-- Handling objections, anchors, or stalled conversations
-- Building talk tracks, concessions, and closing plans
+#### [negotiation-voss-tactical-empathy](skills/negotiation-voss-tactical-empathy)
+Implements Chris Voss's "Never Split the Difference" tactical empathy framework.
+*   **Best for:** Salary negotiations, vendor contracts, high-stakes discussions.
+*   **Key Capabilities:** Mirroring, labeling, calibrated questions, and handling objections.
 
-### persuasion-cialdini-influence-design
-Ethical persuasion using Cialdini principles.
+#### [persuasion-cialdini-influence-design](skills/persuasion-cialdini-influence-design)
+Leverages Robert Cialdini's 6 Principles of Persuasion.
+*   **Best for:** Marketing copy, pitch decks, persuasive emails, and landing pages.
+*   **Key Capabilities:** Integrating Reciprocity, Scarcity, Authority, Consistency, Liking, and Social Proof.
 
-Use when:
-- Writing persuasive emails, landing pages, or decks
-- Creating proposals, pitches, or internal change messages
-- Designing campaigns that need social proof or authority
+### Structured Communication
 
-### pyramid-principle-structured-communication
-Structured communication using the Pyramid Principle.
+#### [pyramid-principle-structured-communication](skills/pyramid-principle-structured-communication)
+Applies Barbara Minto's Pyramid Principle for top-down communication.
+*   **Best for:** Executive summaries, leadership memos, and strategy presentations.
+*   **Key Capabilities:** Structuring arguments from conclusion to supporting details.
 
-Use when:
-- Writing executive summaries or leadership updates
-- Building a storyline for a presentation or memo
-- Turning analysis into a clear recommendation
+### Consulting Frameworks
 
-### consulting-issue-tree-mece
-MECE issue trees and problem structuring.
+#### [consulting-issue-tree-mece](skills/consulting-issue-tree-mece)
+Constructs MECE (Mutually Exclusive, Collectively Exhaustive) issue trees.
+*   **Best for:** Problem structuring, root cause analysis, and scoping projects.
+*   **Key Capabilities:** Breaking down complex problems into manageable components.
 
-Use when:
-- Breaking down complex problems into drivers
-- Building root cause trees or analysis plans
-- Scoping consulting workstreams
+#### [consulting-hypothesis-driven-80-20](skills/consulting-hypothesis-driven-80-20)
+Focuses on hypothesis-driven analysis and the Pareto Principle (80/20 rule).
+*   **Best for:** Rapid problem solving, prioritizing high-impact workstreams.
+*   **Key Capabilities:** formulating testable hypotheses and prioritizing analysis.
 
-### consulting-hypothesis-driven-80-20
-Hypothesis-driven analysis with 80/20 prioritization.
+#### [consulting-market-competition-analysis](skills/consulting-market-competition-analysis)
+Provides tools for market sizing and competitive landscape mapping.
+*   **Best for:** Market entry strategies, product positioning, and competitive intelligence.
+*   **Key Capabilities:** TAM/SAM/SOM analysis, Porter's Five Forces.
 
-Use when:
-- Structuring analysis around testable hypotheses
-- Prioritizing work by impact and speed to learn
-- Building evidence plans and workstreams
-
-### consulting-market-competition-analysis
-Market sizing and competitive landscape analysis.
-
-Use when:
-- Defining market boundaries, segments, and sizing
-- Mapping competitors and positioning
-- Evaluating market entry or expansion options
-
-### consulting-portfolio-growth-strategy
-Portfolio review and growth strategy frameworks.
-
-Use when:
-- Allocating resources across business units
-- Evaluating portfolio attractiveness and position
-- Identifying and sequencing growth moves
+#### [consulting-portfolio-growth-strategy](skills/consulting-portfolio-growth-strategy)
+Frameworks for portfolio management and growth strategy.
+*   **Best for:** Strategic planning, resource allocation, and M&A evaluation.
+*   **Key Capabilities:** BCG Matrix, GE-McKinsey Matrix, Ansoff Matrix.
 
 ## Installation
 
-Install all skills from this repo:
+To add these skills to your agent's repertoire:
 
 ```bash
 npx skills add https://github.com/santos-sanz/lifeskills
@@ -72,38 +57,23 @@ npx skills add https://github.com/santos-sanz/lifeskills
 
 ## Usage
 
-Skills are automatically available once installed. Invoke them directly or let the agent detect the right skill.
+Once installed, these skills are automatically available to the agent. You can invoke them explicitly or rely on the agent's intent detection.
 
-Examples:
+**Examples:**
 
-```text
-/negotiation-voss-tactical-empathy vendor renewal for 2026
-```
+*   *"Help me negotiate a vendor renewal for 2026 using tactical empathy."*
+*   *"Draft a persuasive email to the CFO using Cialdini's principles."*
+*   *"Create a MECE issue tree to analyze why user retention is dropping."*
 
-```text
-Design a persuasive proposal for CFO approval
-```
+## Repository Structure
 
-```text
-Build an issue tree for declining retention
-```
-
-## Skill Structure
-
-Each skill lives in `skills/<skill-name>/` and includes:
-
-- `SKILL.md` - Instructions and metadata
-- `references/` - Frameworks, checklists, and guidance
-- `templates/` - Structured output formats
-- `examples/` - Sample outputs
-
-## Repository Layout
+Each skill is self-contained within the `skills/` directory:
 
 ```
 skills/
   <skill-name>/
-    SKILL.md
-    references/
-    templates/
-    examples/
+    SKILL.md       # Core instructions and metadata
+    references/    # Framework guides, checklists, and heuristics
+    templates/     # Markdown templates for structured output
+    examples/      # Few-shot examples to guide the agent
 ```

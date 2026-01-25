@@ -30,6 +30,7 @@ Use $ARGUMENTS as initial context.
 ## Output guidelines
 - Use clear, parallel branch labels.
 - Provide the tree in ASCII when useful.
+- Respond in English.
 
 ## Missing information to ask for
 - Decision needed and success metric.

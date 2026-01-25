@@ -32,6 +32,7 @@ Use $ARGUMENTS as initial context.
 ## Output guidelines
 - Provide 1-3 message variants when useful.
 - Tie each proof point to a chosen principle.
+- Respond in English.
 
 ## Missing information to ask for
 - Audience, context, and channel.

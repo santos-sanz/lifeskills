@@ -31,6 +31,7 @@ Use $ARGUMENTS as initial context.
 ## Output guidelines
 - Lead with the answer and keep support points parallel.
 - Use evidence that is specific and defensible.
+- Respond in English.
 
 ## Missing information to ask for
 - Audience and decision context.

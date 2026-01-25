@@ -1,5 +1,12 @@
 # Voss tactics quick reference
 
+## Model and mindset
+- FBI-style negotiation is emotion-first, not purely rational.
+- Harvard-style interest-based negotiation assumes rational actors.
+- Tactical empathy is used to calm emotions and surface information.
+- Aim for "that's right" to confirm deep understanding.
+- "No" is useful: it creates safety and reduces resistance.
+
 ## Tactical empathy
 - Demonstrate understanding of the other side's feelings and constraints.
 - Use labels and summaries to show you heard them.

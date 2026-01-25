@@ -30,6 +30,7 @@ Use $ARGUMENTS as initial context.
 ## Output guidelines
 - Include a competitor matrix and key takeaways.
 - Make assumptions explicit and note data gaps.
+- Respond in English.
 
 ## Missing information to ask for
 - Market definition, geography, and segment focus.

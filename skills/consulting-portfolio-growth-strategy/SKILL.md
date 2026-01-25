@@ -30,6 +30,7 @@ Use $ARGUMENTS as initial context.
 ## Output guidelines
 - Provide a short resource allocation summary.
 - Make assumptions and scoring criteria explicit.
+- Respond in English.
 
 ## Missing information to ask for
 - Business units and key metrics.

@@ -6,3 +6,4 @@
 - Respect consent and privacy.
 - Disclose incentives or conflicts of interest.
 - Ensure the offer delivers the stated value.
+- Do not misrepresent authority or credentials.

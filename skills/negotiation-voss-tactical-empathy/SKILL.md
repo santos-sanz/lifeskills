@@ -32,6 +32,7 @@ Use $ARGUMENTS as initial context.
 ## Output guidelines
 - Deliver a structured plan and short talk tracks.
 - Keep scripts concise and realistic for live conversation.
+- Respond in English.
 
 ## Missing information to ask for
 - Context and negotiation type (price, salary, contract, timeline).

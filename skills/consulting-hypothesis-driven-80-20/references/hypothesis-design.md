@@ -1,5 +1,10 @@
 # Hypothesis design
 
+## Hypothesis-driven approach
+- Start with a likely answer, then test it quickly.
+- Prioritize disconfirming evidence to avoid bias.
+- Update or replace hypotheses as data arrives.
+
 ## Criteria
 - Falsifiable and testable
 - Directional, not just descriptive

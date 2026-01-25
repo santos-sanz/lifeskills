@@ -1,5 +1,9 @@
 # 80/20 prioritization
 
+## Pareto principle
+- Roughly 80 percent of outcomes come from 20 percent of causes.
+- Focus analysis on the highest-leverage drivers first.
+
 ## Scoring dimensions
 - Impact: size of upside if true
 - Confidence: evidence strength or likelihood

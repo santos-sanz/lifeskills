@@ -30,6 +30,7 @@ Use $ARGUMENTS as initial context.
 ## Output guidelines
 - Keep hypotheses falsifiable and directional.
 - Explain why the top hypotheses matter most.
+- Respond in English.
 
 ## Missing information to ask for
 - Decision context and business objective.

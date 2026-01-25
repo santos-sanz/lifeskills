@@ -5,6 +5,7 @@
 - Market development: enter new markets
 - Product development: new products to current markets
 - Diversification: new products in new markets
+- Risk profile: penetration (low), product/market development (medium), diversification (high)
 
 ## Additional levers
 - Pricing and packaging

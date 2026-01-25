@@ -2,6 +2,8 @@
 
 Non-coding skills for AI agents. This repo focuses on negotiation, persuasion, and consulting analysis frameworks. Skills follow the Agent Skills format and are written in English.
 
+Language: English only.
+
 ## Available Skills
 
 ### negotiation-voss-tactical-empathy

@@ -1,22 +1,45 @@
-# Structured storyline
+# Structured storyline (decision-ready)
 
-## Governing question
-- Question:
-- Audience:
+## Context
+- Situation summary:
+- Complication that creates urgency:
+- Governing question (single):
+- Decision owner:
 
-## Answer first
-- Key message:
+## Decision or recommendation
+- BLUF (one sentence):
+- Decision requested:
+- Why now:
 
-## Supporting points (MECE)
-1.
-2.
-3.
+## Analysis
+### Support point 1 (parallel phrasing)
+- Claim:
+- Evidence (fact/source/quality):
+- Implication:
 
-## Evidence per point
-- Point 1 evidence:
-- Point 2 evidence:
-- Point 3 evidence:
+### Support point 2 (parallel phrasing)
+- Claim:
+- Evidence (fact/source/quality):
+- Implication:
 
-## Implications and next step
-- Implications:
-- Next step:
+### Support point 3 (parallel phrasing)
+- Claim:
+- Evidence (fact/source/quality):
+- Implication:
+
+## Risks
+- Risk 1:
+- Mitigation 1:
+- Risk 2:
+- Mitigation 2:
+
+## Next actions
+- Action:
+- Owner:
+- Date:
+- Success signal:
+
+## Assumptions
+- Assumption:
+- Confidence (high/medium/low):
+- Validation needed:

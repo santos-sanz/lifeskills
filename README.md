@@ -1,79 +1,89 @@
 # Lifeskills
 
-A curated collection of non-coding skills for AI agents, focusing on high-impact soft skills such as negotiation, persuasion, structured communication, and consulting frameworks. These skills follow the standard Agent Skills format and are designed to enhance agent capabilities in business and interpersonal contexts.
+A curated collection of non-coding skills for AI agents focused on business-critical communication, strategy, negotiation, and influence.
 
-**Language:** English
+These skills follow a shared quality contract for decision-ready outputs and explicit handling of uncertainty.
 
-## Available Skills
+Language of skill content: English.
 
-### Negotiation & Influence
+## Skills included
 
-#### [negotiation-voss-tactical-empathy](skills/negotiation-voss-tactical-empathy)
-Implements Chris Voss's "Never Split the Difference" tactical empathy framework.
-*   **Best for:** Salary negotiations, vendor contracts, high-stakes discussions.
-*   **Key Capabilities:** Mirroring, labeling, calibrated questions, and handling objections.
+## Negotiation and influence
 
-#### [persuasion-cialdini-influence-design](skills/persuasion-cialdini-influence-design)
-Leverages Robert Cialdini's 6 Principles of Persuasion.
-*   **Best for:** Marketing copy, pitch decks, persuasive emails, and landing pages.
-*   **Key Capabilities:** Integrating Reciprocity, Scarcity, Authority, Consistency, Liking, and Social Proof.
+### [negotiation-voss-tactical-empathy](skills/negotiation-voss-tactical-empathy)
+Negotiation planning and execution with tactical empathy, strategy/script separation, BATNA/ZOPA framing, and conditional concessions.
 
-### Structured Communication
+### [persuasion-cialdini-influence-design](skills/persuasion-cialdini-influence-design)
+Ethical persuasion design using Cialdini principles with principle-to-evidence-to-claim traceability.
 
-#### [pyramid-principle-structured-communication](skills/pyramid-principle-structured-communication)
-Applies Barbara Minto's Pyramid Principle for top-down communication.
-*   **Best for:** Executive summaries, leadership memos, and strategy presentations.
-*   **Key Capabilities:** Structuring arguments from conclusion to supporting details.
+## Structured communication
 
-### Consulting Frameworks
+### [pyramid-principle-structured-communication](skills/pyramid-principle-structured-communication)
+Answer-first executive communication using BLUF + SCQA + MECE support logic.
 
-#### [consulting-issue-tree-mece](skills/consulting-issue-tree-mece)
-Constructs MECE (Mutually Exclusive, Collectively Exhaustive) issue trees.
-*   **Best for:** Problem structuring, root cause analysis, and scoping projects.
-*   **Key Capabilities:** Breaking down complex problems into manageable components.
+## Consulting frameworks
 
-#### [consulting-hypothesis-driven-80-20](skills/consulting-hypothesis-driven-80-20)
-Focuses on hypothesis-driven analysis and the Pareto Principle (80/20 rule).
-*   **Best for:** Rapid problem solving, prioritizing high-impact workstreams.
-*   **Key Capabilities:** formulating testable hypotheses and prioritizing analysis.
+### [consulting-issue-tree-mece](skills/consulting-issue-tree-mece)
+MECE issue-tree decomposition with formal validation gates and prioritized analysis backlog mapping.
 
-#### [consulting-market-competition-analysis](skills/consulting-market-competition-analysis)
-Provides tools for market sizing and competitive landscape mapping.
-*   **Best for:** Market entry strategies, product positioning, and competitive intelligence.
-*   **Key Capabilities:** TAM/SAM/SOM analysis, Porter's Five Forces.
+### [consulting-hypothesis-driven-80-20](skills/consulting-hypothesis-driven-80-20)
+Hypothesis-driven planning with falsifiable design, kill criteria, and 80/20 prioritization.
 
-#### [consulting-portfolio-growth-strategy](skills/consulting-portfolio-growth-strategy)
-Frameworks for portfolio management and growth strategy.
-*   **Best for:** Strategic planning, resource allocation, and M&A evaluation.
-*   **Key Capabilities:** BCG Matrix, GE-McKinsey Matrix, Ansoff Matrix.
+### [consulting-market-competition-analysis](skills/consulting-market-competition-analysis)
+Market sizing and competitive analysis with top-down/bottom-up triangulation and uncertainty-aware scenarios.
+
+### [consulting-portfolio-growth-strategy](skills/consulting-portfolio-growth-strategy)
+Portfolio allocation and growth sequencing using BCG, GE/McKinsey, and Ansoff logic.
+
+## Shared output contract
+
+Every skill is designed to return the same section order:
+1. Context
+2. Decision or Recommendation
+3. Analysis
+4. Risks
+5. Next Actions
+6. Assumptions
+
+This improves consistency across skills and makes outputs easier to review in high-stakes workflows.
+
+## Quality system
+
+The repository includes a reusable evaluation framework in [`quality/`](quality):
+- `quality/rubric.md`: common scoring rubric (1-5).
+- `quality/test-prompts.md`: 4 test prompts per skill (28 total).
+- `quality/eval-log-template.md`: logging template for manual evaluations.
+
+Target acceptance thresholds:
+- Per-skill average >= 4.2
+- No criterion below 3.5
+- Zero critical guardrail failures
 
 ## Installation
-
-To add these skills to your agent's repertoire:
 
 ```bash
 npx skills add https://github.com/santos-sanz/lifeskills
 ```
 
-## Usage
+## Repository structure
 
-Once installed, these skills are automatically available to the agent. You can invoke them explicitly or rely on the agent's intent detection.
-
-**Examples:**
-
-*   *"Help me negotiate a vendor renewal for 2026 using tactical empathy."*
-*   *"Draft a persuasive email to the CFO using Cialdini's principles."*
-*   *"Create a MECE issue tree to analyze why user retention is dropping."*
-
-## Repository Structure
-
-Each skill is self-contained within the `skills/` directory:
-
-```
+```text
 skills/
   <skill-name>/
-    SKILL.md       # Core instructions and metadata
-    references/    # Framework guides, checklists, and heuristics
-    templates/     # Markdown templates for structured output
-    examples/      # Few-shot examples to guide the agent
+    SKILL.md
+    references/
+    templates/
+    examples/
+quality/
+  rubric.md
+  test-prompts.md
+  eval-log-template.md
 ```
+
+## Design principles used in this version
+
+This iteration integrated patterns commonly used in high-quality agent skills ecosystems:
+- Prompt contracts for predictable outputs.
+- Rubric-driven evaluation for quality control.
+- Explicit uncertainty and assumption tagging.
+- Ethical guardrails for persuasion and negotiation tasks.

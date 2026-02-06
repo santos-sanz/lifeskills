@@ -88,4 +88,15 @@ Create a negotiation strategy that preserves relationship quality while pushing 
 Draft a negotiation plan for a deal-at-risk call happening in 2 hours where either side may walk away.
 
 ## persuasion-cialdini-influence-design
-(TBD in commit 7)
+
+### Happy path
+Create a persuasive email sequence to move qualified free users to paid trial using ethical Cialdini principles and verifiable proof.
+
+### Missing critical info
+Draft a persuasion brief for an internal budget proposal where I do not yet have solid social-proof metrics.
+
+### Conflicting objectives
+Design messaging that increases urgency while preserving long-term trust and avoiding manipulative pressure.
+
+### High-stakes constraint
+Prepare a persuasion plan for a sensitive stakeholder vote in 24 hours where factual errors could damage credibility.

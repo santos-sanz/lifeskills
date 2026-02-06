@@ -1,46 +1,48 @@
-# Cialdini principles quick reference
+# Cialdini principles with evidence mapping
 
-People rely on fast heuristics under time pressure. These principles map to those decision shortcuts.
+## How to choose principles
+- Select 2-3 principles that match audience barriers.
+- Favor principle diversity; avoid stacking redundant cues.
+- Match principle intensity to trust level and channel context.
 
 ## Reciprocity
-- Offer value first to encourage return.
-- Use when you can provide a helpful resource or preview.
-- Avoid making the offer feel transactional.
-- Prefer unconditional value over "if you buy" framing.
-- Concession reciprocity: retreat from a big ask to a smaller one.
+- Best when you can provide immediate standalone value.
+- Evidence examples: practical checklist, benchmark snippet, diagnostic.
+- Risk: perceived as transactional if tied too tightly to immediate ask.
 
 ## Commitment and consistency
-- Start with small commitments that align with the desired action.
-- Use public or written commitments when appropriate.
-- Avoid bait-and-switch or surprise steps.
-- Foot-in-the-door: small commitments shift identity and follow-through.
+- Best when behavior can start with a low-friction first step.
+- Evidence examples: completion rates, staged adoption pathways.
+- Risk: hidden escalation creates trust loss.
 
 ## Social proof
-- Show that peers or similar groups chose this option.
-- Use specific numbers or recognizable logos.
-- Avoid irrelevant or non-comparable examples.
-- Strongest under uncertainty and high similarity.
-- Use local or segment-specific proof when possible.
+- Best under uncertainty when peer similarity is high.
+- Evidence examples: segment-specific adoption numbers, customer references.
+- Risk: generic social proof without relevance.
 
 ## Authority
-- Cite credible experts, standards, or certifications.
-- Use clear sources and dates.
-- Avoid vague or inflated claims.
-- Authority is stronger when introduced by a third party.
+- Best when decision risk is high and credibility matters.
+- Evidence examples: third-party audits, certifications, analyst reports.
+- Risk: vague or outdated authority references.
 
 ## Liking
-- Build rapport through similarity, praise, and shared goals.
-- Use personalization and genuine empathy.
-- Keep flattery sincere and relevant.
+- Best for relationship-dependent influence.
+- Evidence examples: shared goals, personalized relevance cues.
+- Risk: excessive flattery reduces credibility.
 
 ## Scarcity
-- Highlight limited availability or time, with real constraints.
-- Combine with clear value to avoid pressure tactics.
-- False urgency damages trust.
-- Scarcity works via loss aversion and psychological reactance.
+- Best when constraint is real and verifiable.
+- Evidence examples: limited onboarding capacity, deadline tied to true event.
+- Risk: fake urgency damages trust.
 
 ## Unity
-- Emphasize shared identity or mission.
-- Use "we" and collective outcomes.
-- Avoid creating exclusionary language.
-- Co-create solutions to deepen shared ownership.
+- Best when shared identity or mission is authentic.
+- Evidence examples: collective outcomes, cross-team commitments.
+- Risk: exclusionary framing.
+
+## Traceability requirement
+For each claim include:
+- Principle used
+- Evidence source
+- Confidence level
+- Exact claim wording

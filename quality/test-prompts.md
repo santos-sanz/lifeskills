@@ -46,7 +46,18 @@ Design hypotheses to improve retention while also reducing support headcount thi
 Build an 80/20 hypothesis plan to explain a sudden revenue slowdown before Monday board meeting with only 72 hours available.
 
 ## consulting-market-competition-analysis
-(TBD in commit 4)
+
+### Happy path
+Prepare a market and competition analysis for entering the North American mid-market HR tech segment in the next 18 months.
+
+### Missing critical info
+I need TAM/SAM/SOM and competitor view for a new fintech product, but I only have rough demand assumptions and no complete benchmark data.
+
+### Conflicting objectives
+Analyze market entry where leadership wants premium positioning and rapid share capture at the same time.
+
+### High-stakes constraint
+Build a competition analysis in 24 hours for an emergency board decision after a major competitor launched an aggressive pricing bundle.
 
 ## consulting-portfolio-growth-strategy
 (TBD in commit 5)

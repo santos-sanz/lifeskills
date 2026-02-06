@@ -1,28 +1,48 @@
-# Hypothesis plan
+# Hypothesis plan (decision-ready)
 
-## Governing question and metrics
-- Question:
-- Success metrics:
+## Context
+- Governing question:
+- Success metric:
 - Time horizon:
+- Decision deadline:
 
-## Hypotheses
-1.
-2.
-3.
+## Decision or recommendation
+- Recommended top hypothesis to test first:
+- Why it is first (80/20 rationale):
+- Decision checkpoint date:
 
-## Prioritization (80/20)
-- Top hypothesis and rationale:
-- Secondary hypothesis and rationale:
+## Analysis
+### Hypothesis set
+1. If X, then Y, because Z.
+2. If X, then Y, because Z.
+3. If X, then Y, because Z.
 
-## Tests and data needs
-- Hypothesis 1 test:
-- Data needed:
-- Hypothesis 2 test:
-- Data needed:
+### Signal design
+- Hypothesis 1 confirming signal:
+- Hypothesis 1 disconfirming signal:
+- Hypothesis 1 kill threshold:
+- Hypothesis 2 confirming signal:
+- Hypothesis 2 disconfirming signal:
+- Hypothesis 2 kill threshold:
 
-## Workplan
-- Workstream 1 owner and timing:
-- Workstream 2 owner and timing:
+### 80/20 prioritization
+- Scoring model used:
+- Top 1 score and rationale:
+- Top 2 score and rationale:
 
-## Risks and assumptions
--
+## Risks
+- Risk: false positive from noisy data
+- Mitigation:
+- Risk: test too slow for decision cycle
+- Mitigation:
+
+## Next actions
+- Test task:
+- Owner:
+- Date:
+- Success signal:
+
+## Assumptions
+- Assumption:
+- Confidence (high/medium/low):
+- Validation needed:

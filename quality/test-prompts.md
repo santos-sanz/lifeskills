@@ -32,7 +32,18 @@ Design a problem structure that explains how to reduce operating cost by 10 perc
 Create an issue tree for a sudden conversion drop where leadership needs a root-cause direction in 48 hours before investor updates.
 
 ## consulting-hypothesis-driven-80-20
-(TBD in commit 3)
+
+### Happy path
+Create a hypothesis-driven workplan to reduce churn in mid-market accounts over the next two quarters.
+
+### Missing critical info
+I need a hypothesis plan for declining conversion, but I only have top-line funnel metrics and no segment-level data.
+
+### Conflicting objectives
+Design hypotheses to improve retention while also reducing support headcount this quarter.
+
+### High-stakes constraint
+Build an 80/20 hypothesis plan to explain a sudden revenue slowdown before Monday board meeting with only 72 hours available.
 
 ## consulting-market-competition-analysis
 (TBD in commit 4)

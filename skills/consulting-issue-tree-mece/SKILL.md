@@ -1,6 +1,6 @@
 ---
 name: consulting-issue-tree-mece
-description: Build MECE issue trees and problem structures for consulting analysis. Use when breaking down complex problems, root causes, or designing an analysis plan.
+description: Build MECE issue trees for complex business problems. Use when you need rigorous problem decomposition, branch prioritization, and a decision-ready analysis backlog.
 ---
 
 # MECE Issue Tree
@@ -8,34 +8,55 @@ description: Build MECE issue trees and problem structures for consulting analys
 Use $ARGUMENTS as initial context.
 
 ## When to use this skill
-- Structuring complex problems into MECE drivers.
-- Building root cause trees or analysis plans.
-- Framing a consulting workstream breakdown.
+- Diagnosing root causes in performance decline or execution failures.
+- Structuring strategic questions into mutually exclusive branches.
+- Creating a prioritized analysis plan before data deep-dives.
+- Aligning teams on problem scope and ownership.
 
-## How to use this skill
-1. Define the problem statement, scope, metric, and time horizon.
-2. Choose a tree type: driver, process, option, or hypothesis.
-3. Build a top-down MECE structure with clear labels.
-4. Add assumptions and data sources per branch.
-5. Prioritize branches by impact, controllability, feasibility.
-6. Translate priority branches into analyses and workstreams.
-7. If information is missing, ask targeted questions.
+## Required inputs
+- Problem statement, metric, and baseline.
+- Scope boundaries (segment, geography, time horizon).
+- Available data and decision deadline.
+
+## Workflow
+1. Convert the request into one decision-oriented problem statement.
+2. Select tree type: driver, process, option, or hypothesis tree.
+3. Build 2-3 levels of MECE branches with parallel labels.
+4. Run formal checks for overlap, gaps, and level-mixing.
+5. Prioritize branches by impact, controllability, and learning speed.
+6. Translate top branches into an analysis backlog with owners and timing.
+
+## Ask-first questions
+Ask up to 3 questions before building the tree:
+1. Which metric and baseline define the problem severity?
+2. What scope is explicitly in or out?
+3. What decision must this tree support?
+
+## Assumption policy
+- Proceed if data is incomplete, but list assumptions in a dedicated section.
+- Tag assumptions with confidence and validation path.
+- Do not invent branch evidence; flag unknowns explicitly.
+
+## Output contract
+Always produce these sections in order:
+1. Context
+2. Decision or Recommendation
+3. Analysis
+4. Risks
+5. Next Actions
+6. Assumptions
+
+## Guardrails
+- No branch overlap at the same level.
+- No mixing causes and outcomes in one branch layer.
+- No "other" bucket unless unavoidable and quantified.
+- Keep branch naming at equivalent abstraction depth.
 
 ## Resources
-- `references/issue-tree-patterns.md` - Common tree structures.
-- `references/mece-checks.md` - Overlap and gap checks.
-- `templates/issue-tree.md` - Final structure.
-- `examples/issue-tree-example.md` - Sample output.
-
-## Output guidelines
-- Use clear, parallel branch labels.
-- Provide the tree in ASCII when useful.
-- Respond in English.
-
-## Missing information to ask for
-- Decision needed and success metric.
-- Scope boundaries and constraints.
-- Available data and stakeholders.
+- `references/issue-tree-patterns.md` - Tree patterns and branch design rules.
+- `references/mece-checks.md` - Validation gates and failure diagnostics.
+- `templates/issue-tree.md` - Decision-ready tree template.
+- `examples/issue-tree-example.md` - Golden example with partial information.
 
 ## Keywords
-issue tree, MECE, problem structuring, driver tree, root cause, workplan
+issue tree, MECE, root cause, problem structuring, analysis backlog, driver tree

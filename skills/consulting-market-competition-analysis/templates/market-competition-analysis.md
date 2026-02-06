@@ -1,30 +1,53 @@
-# Market and competition analysis
+# Market and competition analysis (decision-ready)
 
-## Scope and market definition
-- Market boundary:
-- Geography:
-- Segments:
+## Context
+- Decision to support:
+- Market definition and scope:
+- Geography and segments:
 - Time horizon:
 
-## Market sizing
-- TAM / SAM / SOM:
-- Sizing method and assumptions:
+## Decision or recommendation
+- Recommended strategic direction:
+- Why this option now:
+- Confidence level:
 
-## Market dynamics
+## Analysis
+### Market sizing triangulation
+- TAM (top-down):
+- TAM (bottom-up):
+- SAM:
+- SOM:
+- Reconciliation notes:
+
+### Market dynamics
 - Growth drivers:
-- PESTEL factors:
+- Structural constraints:
+- External factors (PESTEL highlights):
 
-## Competitive landscape
-- Key competitors:
-- Substitutes:
-- Porter five forces summary:
+### Competitive landscape
+- Direct competitors:
+- Substitutes and adjacent threats:
+- Pricing and positioning matrix:
+- Capability signals (distribution, product depth, brand trust):
 
-## Positioning and differentiation
-- Customer needs:
-- Competitor positioning matrix:
-- Value chain insights:
+### Scenario view
+- Base scenario:
+- Stressed scenario:
+- Key sensitivity variable:
 
-## Implications
-- Strategic insights:
-- Risks and gaps:
-- Recommended next analyses:
+## Risks
+- Risk: sizing assumption error
+- Mitigation:
+- Risk: substitute disruption
+- Mitigation:
+
+## Next actions
+- Analysis task:
+- Owner:
+- Date:
+- Success signal:
+
+## Assumptions
+- Assumption:
+- Confidence (high/medium/low):
+- Validation needed:

@@ -1,29 +1,49 @@
-# Persuasion brief
+# Persuasion brief (decision-ready)
 
-## Objective and audience
+## Context
 - Objective:
 - Audience:
-- Desired action:
+- Desired action and deadline:
+- Channel and constraints:
 
-## Barriers and motivators
-- Barriers:
-- Motivators:
+## Decision or recommendation
+- Recommended persuasion strategy:
+- Selected principles:
+- Why this mix fits this audience:
 
-## Principles selected
-- Principle 1 and proof:
-- Principle 2 and proof:
-- Principle 3 and proof:
+## Analysis
+### Barrier and motivator map
+- Key barrier 1:
+- Key motivator 1:
+- Key barrier 2:
+- Key motivator 2:
 
-## Message draft
-- Hook:
-- Value:
-- Proof:
-- Call to action:
+### Principle -> evidence -> claim matrix
+- Principle:
+- Evidence source and quality:
+- Claim wording:
 
-## Channel adaptation
-- Channel and length:
-- Tone:
+- Principle:
+- Evidence source and quality:
+- Claim wording:
 
-## Ethics check
-- Risks:
-- Mitigations:
+### Message variants
+- Variant A (channel-specific draft + CTA):
+- Variant B (channel-specific draft + CTA):
+
+## Risks
+- Risk: overclaiming beyond evidence
+- Mitigation:
+- Risk: manipulative perception
+- Mitigation:
+
+## Next actions
+- Action:
+- Owner:
+- Date:
+- Success signal:
+
+## Assumptions
+- Assumption:
+- Confidence (high/medium/low):
+- Validation needed:

@@ -1,29 +1,39 @@
-# Market frameworks
+# Market framework selection and triangulation
 
-## Market definition and sizing
-- TAM, SAM, SOM
-- Top-down sizing: macro spend x share assumptions
-- Bottom-up sizing: customers x units x price
+## Sizing methods
 
-## Competitive intensity
-- Porter five forces: rivalry, new entrants, substitutes, buyer power, supplier power
-- Use to explain pricing power and industry profitability
-- Pay attention to fast-moving substitutes in digital markets
+### Top-down
+- Start from credible macro spend or market reports.
+- Apply filters: geography, segment fit, use-case relevance.
+- Strength: speed and broad directional estimate.
+- Risk: inherited external assumptions.
 
-## Company and customer view
-- 3C: Customer, Company, Competition
-- Segmentation, Targeting, Positioning (STP)
-- Core competencies: hard to imitate, unlock multiple markets, create customer value
+### Bottom-up
+- Estimate account count x expected adoption x price/ACV.
+- Strength: explicit operational assumptions.
+- Risk: sensitive to conversion and pricing assumptions.
 
-## External factors
-- PESTEL: political, economic, social, tech, environmental, legal
+### Triangulation rule
+- Always compare top-down and bottom-up range.
+- If gap exceeds 25 percent, disclose and reconcile drivers.
 
-## Strategy and positioning
-- SWOT: strengths, weaknesses, opportunities, threats
-- Value chain: activities that drive cost or differentiation
+## Competitive frameworks
+- Porter Five Forces for structural profitability.
+- 3C for strategic fit (customer, company, competition).
+- STP for go-to-market focus.
+- Value chain for cost or differentiation source.
 
-## Selection guidance
-- Use TAM/SAM/SOM when sizing is needed.
-- Use Porter when pricing power and margins are the question.
-- Use 3C and STP for positioning and go-to-market choices.
-- Use core competencies to justify why you can win.
+## Substitute analysis guidance
+- Include non-obvious alternatives solving same job-to-be-done.
+- Evaluate switching inertia, not just feature parity.
+- Model substitute pressure in stressed scenario.
+
+## Scenario discipline
+- Base scenario: most likely assumptions.
+- Stressed scenario: adverse but plausible conditions.
+- Optional upside scenario when decision involves investment sizing.
+
+## Confidence tagging
+- High: validated internal data or high-quality recent external source.
+- Medium: mixed evidence with partial validation.
+- Low: directional proxy only.

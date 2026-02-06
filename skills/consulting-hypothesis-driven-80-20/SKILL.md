@@ -1,6 +1,6 @@
 ---
 name: consulting-hypothesis-driven-80-20
-description: Create hypothesis-driven workplans and apply 80/20 prioritization. Use when structuring analysis, testing assumptions, or focusing work on the highest impact areas.
+description: Build hypothesis-driven workplans with explicit 80/20 prioritization. Use when rapid decision-making requires testing assumptions, ranking opportunities, and focusing on highest-leverage analyses.
 ---
 
 # Hypothesis Driven 80/20
@@ -8,34 +8,55 @@ description: Create hypothesis-driven workplans and apply 80/20 prioritization. 
 Use $ARGUMENTS as initial context.
 
 ## When to use this skill
-- Structuring analysis around testable hypotheses.
-- Prioritizing workstreams with 80/20 logic.
-- Building a consulting workplan and evidence plan.
+- Ambiguous problems that need fast direction before full analysis.
+- Prioritizing limited team capacity across competing hypotheses.
+- Designing a test plan with clear stop or continue criteria.
+- Converting broad strategic questions into measurable experiments.
 
-## How to use this skill
-1. Define the governing question and success metrics.
-2. Generate 3-7 hypotheses that could answer the question.
-3. Prioritize hypotheses using 80/20 impact and feasibility.
-4. Design tests and data needs for top hypotheses.
-5. Build a workplan with owners, timing, and outputs.
-6. Update hypotheses as evidence arrives.
-7. If information is missing, ask targeted questions.
+## Required inputs
+- Governing business question and target metric.
+- Time horizon and decision deadline.
+- Data constraints and available analysis bandwidth.
+
+## Workflow
+1. Define one decision question and explicit success metric.
+2. Generate 3-7 falsifiable hypotheses using strict format.
+3. For each hypothesis define expected signal, disconfirming signal, and kill threshold.
+4. Score hypotheses with 80/20 lens: impact, confidence, effort, speed.
+5. Select top 1-2 hypotheses for minimum viable tests.
+6. Build workplan with owners, deadlines, and decision checkpoints.
+
+## Ask-first questions
+Ask up to 3 questions before ranking hypotheses:
+1. Which single metric determines decision success?
+2. What is the latest acceptable date for a go or no-go decision?
+3. Which datasets are trusted and immediately accessible?
+
+## Assumption policy
+- If critical data is unavailable, proceed with transparent assumptions.
+- Annotate each assumption with confidence and validation action.
+- Avoid merged hypotheses; keep one causal chain per hypothesis.
+
+## Output contract
+Always produce these sections in order:
+1. Context
+2. Decision or Recommendation
+3. Analysis
+4. Risks
+5. Next Actions
+6. Assumptions
+
+## Guardrails
+- Hypotheses must follow: "If X, then Y, because Z.".
+- Avoid descriptive statements that cannot be disproven.
+- Include both confirming and disconfirming signals.
+- Stop low-value analysis once kill threshold is reached.
 
 ## Resources
-- `references/hypothesis-design.md` - Criteria and wording.
-- `references/80-20-prioritization.md` - Scoring and sequencing.
-- `templates/hypothesis-plan.md` - Final structure.
-- `examples/hypothesis-example.md` - Sample output.
-
-## Output guidelines
-- Keep hypotheses falsifiable and directional.
-- Explain why the top hypotheses matter most.
-- Respond in English.
-
-## Missing information to ask for
-- Decision context and business objective.
-- Available data sources and constraints.
-- Timeline and stakeholders.
+- `references/hypothesis-design.md` - Falsifiability rules and signal design.
+- `references/80-20-prioritization.md` - Scoring and sequencing framework.
+- `templates/hypothesis-plan.md` - Decision-ready hypothesis template.
+- `examples/hypothesis-example.md` - Golden example with incomplete inputs.
 
 ## Keywords
-hypothesis driven, 80/20, workplan, prioritization, consulting analysis
+hypothesis driven, 80/20, falsifiable hypothesis, prioritization, test plan, consulting

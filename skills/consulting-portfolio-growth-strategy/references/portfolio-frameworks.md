@@ -1,20 +1,32 @@
-# Portfolio frameworks
+# Portfolio frameworks and scoring discipline
 
-## BCG matrix
-- Axes: market growth (y), relative market share (x)
-- Categories: stars, cash cows, question marks, dogs
-- Use for resource allocation and lifecycle view
-- Typical actions: invest in stars, harvest cash cows, decide on question marks, exit dogs
+## Framework selection
+- BCG: fast lifecycle view using growth and relative share.
+- GE/McKinsey: nuanced allocation using weighted criteria.
+- ADL lifecycle: maturity-aware sequencing and risk posture.
+- Combine frameworks when decision requires both speed and depth.
 
-## GE / McKinsey 9-cell
-- Axes: industry attractiveness, competitive strength
-- Use for nuanced scoring beyond growth and share
-- Score each axis with multi-factor criteria (size, growth, margins, regulation)
+## Weighted scoring process
+1. Define criteria before scoring units.
+2. Assign weights that reflect stated strategy.
+3. Score each unit 1-5 per criterion with evidence notes.
+4. Normalize scores for cross-unit comparability.
+5. Run sensitivity test on top weight assumptions.
 
-## ADL lifecycle
-- Axes: industry maturity, competitive position
-- Use for sequencing invest and harvest decisions
+## Allocation categories
+- Invest: high attractiveness and defensible strength.
+- Hold: stable cash or strategic support role.
+- Harvest: declining attractiveness but short-term cash value.
+- Exit: weak outlook and low strategic fit.
 
-## Scoring notes
-- Define scoring criteria and weights in advance
-- Calibrate scores across units to avoid bias
+## Dependency mapping rules
+For each unit decision, capture:
+- Shared capabilities dependency
+- Revenue or customer crossover effects
+- Operational transition risk
+
+## Common failure modes
+- Hidden weighting bias favoring incumbent units.
+- Treating framework quadrants as automatic decisions.
+- Ignoring execution capacity constraints.
+- No explicit milestone to revisit allocation.

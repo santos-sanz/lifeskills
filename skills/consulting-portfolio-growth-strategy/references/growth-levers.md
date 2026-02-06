@@ -1,15 +1,31 @@
-# Growth levers
+# Growth levers and sequencing logic
 
-## Ansoff matrix
-- Market penetration: grow share in current markets
-- Market development: enter new markets
-- Product development: new products to current markets
-- Diversification: new products in new markets
-- Risk profile: penetration (low), product/market development (medium), diversification (high)
+## Ansoff matrix application
+- Market penetration: best when product fit is strong and channel efficiency can improve.
+- Market development: best when adjacent geographies or segments are accessible.
+- Product development: best when existing customers show unmet demand.
+- Diversification: best when strategic hedge is necessary and risk appetite is high.
 
-## Additional levers
-- Pricing and packaging
-- Channel expansion and partnerships
-- M&A and strategic alliances
-- Retention and expansion
-- Operational efficiency to fund growth
+## Additional growth levers
+- Pricing and packaging redesign.
+- Partner channel expansion.
+- Strategic alliances and selective M&A.
+- Retention and expansion programs.
+- Operational efficiency to fund reinvestment.
+
+## Sequencing principles
+1. Launch low-regret moves with fast learning loops first.
+2. Sequence moves by dependency readiness, not only expected ROI.
+3. Stage high-risk moves behind milestone gates.
+4. Define stop conditions for underperforming initiatives.
+
+## Milestone template
+- Milestone objective
+- Owner
+- Date
+- Leading indicator
+- Decision gate (continue, adjust, stop)
+
+## Risk balancing
+- Pair each growth move with downside scenario.
+- Reserve contingency capacity for execution variance.

@@ -1,27 +1,51 @@
-# Portfolio and growth plan
+# Portfolio and growth plan (decision-ready)
 
-## Portfolio scope
-- Business units:
-- Metrics used:
+## Context
+- Portfolio units in scope:
+- Strategic objective:
+- Constraints (budget, talent, risk):
 - Time horizon:
 
-## Framework and scoring
-- Framework chosen:
-- Scoring criteria:
+## Decision or recommendation
+- Recommended allocation posture:
+- Capital split summary:
+- Why this allocation now:
 
-## Portfolio map
-- Unit A position:
-- Unit B position:
+## Analysis
+### Framework and scoring
+- Framework selected:
+- Attractiveness criteria and weights:
+- Competitive position criteria and weights:
 
-## Resource allocation
+### Portfolio map
+- Unit A classification and score:
+- Unit B classification and score:
+- Unit C classification and score:
+
+### Allocation logic
 - Invest:
 - Hold:
 - Harvest:
 - Exit:
 
-## Growth moves
-- Unit A moves:
-- Unit B moves:
+### Growth move sequencing
+- Move 1 (owner, dependency, timing):
+- Move 2 (owner, dependency, timing):
+- Move 3 (owner, dependency, timing):
 
-## Risks and dependencies
--
+## Risks
+- Risk: score bias or data inconsistency
+- Mitigation:
+- Risk: cross-unit dependency failure
+- Mitigation:
+
+## Next actions
+- Action:
+- Owner:
+- Date:
+- Success signal:
+
+## Assumptions
+- Assumption:
+- Confidence (high/medium/low):
+- Validation needed:

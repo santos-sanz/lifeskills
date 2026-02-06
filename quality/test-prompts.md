@@ -60,7 +60,18 @@ Analyze market entry where leadership wants premium positioning and rapid share 
 Build a competition analysis in 24 hours for an emergency board decision after a major competitor launched an aggressive pricing bundle.
 
 ## consulting-portfolio-growth-strategy
-(TBD in commit 5)
+
+### Happy path
+Build a portfolio growth strategy for three business units and recommend invest/hold/harvest/exit allocations for the next 18 months.
+
+### Missing critical info
+Create a portfolio allocation plan, but I only have rough revenue and margin estimates and no full market-attractiveness dataset.
+
+### Conflicting objectives
+Recommend a portfolio strategy that maximizes growth while also increasing short-term cash generation this year.
+
+### High-stakes constraint
+Design a portfolio reallocation plan in 48 hours before a board meeting where one unit may need rapid harvest or exit.
 
 ## negotiation-voss-tactical-empathy
 (TBD in commit 6)

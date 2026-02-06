@@ -18,7 +18,18 @@ Prepare an executive memo that both cuts costs immediately and increases custome
 Write a decision memo for a compliance incident where legal risk is high and external communication must happen within 24 hours.
 
 ## consulting-issue-tree-mece
-(TBD in commit 2)
+
+### Happy path
+Build a MECE issue tree to diagnose why gross margin dropped in our B2B SaaS business over the last two quarters.
+
+### Missing critical info
+Create an issue tree for declining profitability. I only know profit is down, but I do not have a full cost breakdown yet.
+
+### Conflicting objectives
+Design a problem structure that explains how to reduce operating cost by 10 percent while also increasing service quality scores this quarter.
+
+### High-stakes constraint
+Create an issue tree for a sudden conversion drop where leadership needs a root-cause direction in 48 hours before investor updates.
 
 ## consulting-hypothesis-driven-80-20
 (TBD in commit 3)

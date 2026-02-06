@@ -1,30 +1,39 @@
-# Issue tree patterns
+# Issue tree patterns and branch design
 
-## Issue tree vs hypothesis tree
-- Issue tree: map the full problem space before testing.
-- Hypothesis tree: start with a likely answer and test fast.
-- Use hypothesis trees for speed, issue trees for coverage.
+## Choosing the right tree type
+- Driver tree: best for diagnosing metric movement.
+- Process tree: best for operational bottlenecks.
+- Option tree: best for comparing strategic choices.
+- Hypothesis tree: best for rapid test-and-learn cycles.
 
-## Profitability tree
-Profit = Revenue - Cost
-Revenue = Price x Volume
-Cost = Fixed + Variable
+## Driver tree starter formulas
+- Profit = Revenue - Cost
+- Revenue = Price x Volume
+- Volume = New customers + Expansion - Churn
+- Cost = Fixed + Variable + Failure cost
 
-## Growth tree
-Growth = New customers + Expansion - Churn
-New customers = Leads x Conversion
+## Process tree pattern
+- Input quality -> Throughput -> Output quality -> Rework -> Cost/time impact
 
-## Market entry tree
-Market attractiveness
-- Size, growth, profitability, regulation
-Competitive intensity
-- Rivals, substitutes, buyer power, supplier power
-Company fit
-- Capabilities, brand, channels, economics
+## Option tree pattern
+- Option A, B, C
+- Under each option: value upside, implementation effort, execution risk
 
-## Operations tree
-Throughput = Capacity x Utilization x Yield
-Quality = Defect rate + Rework rate
+## Branch design rules
+- Keep sibling branches at the same abstraction level.
+- Use nouns for branches, not action verbs.
+- Ensure branches are mutually exclusive before adding child nodes.
+- Avoid premature detail; keep depth proportional to decision urgency.
 
-## Customer experience tree
-Satisfaction = Product + Service + Price + Brand
+## Prioritization heuristic
+- Score branches 1-5 on impact, controllability, and speed to evidence.
+- Prioritize branches with highest weighted combination.
+- Default weight set: impact 0.5, controllability 0.3, speed 0.2.
+
+## Translation to analysis backlog
+For each top branch, define:
+- Key question
+- Required dataset
+- Owner
+- Deadline
+- Decision signal

@@ -74,7 +74,18 @@ Recommend a portfolio strategy that maximizes growth while also increasing short
 Design a portfolio reallocation plan in 48 hours before a board meeting where one unit may need rapid harvest or exit.
 
 ## negotiation-voss-tactical-empathy
-(TBD in commit 6)
+
+### Happy path
+Prepare a negotiation plan for renewing a strategic vendor contract where we need cost reduction without losing service quality.
+
+### Missing critical info
+Build a tactical empathy negotiation plan for a salary raise discussion, but I do not know my manager's budget limits yet.
+
+### Conflicting objectives
+Create a negotiation strategy that preserves relationship quality while pushing for aggressive commercial terms.
+
+### High-stakes constraint
+Draft a negotiation plan for a deal-at-risk call happening in 2 hours where either side may walk away.
 
 ## persuasion-cialdini-influence-design
 (TBD in commit 7)

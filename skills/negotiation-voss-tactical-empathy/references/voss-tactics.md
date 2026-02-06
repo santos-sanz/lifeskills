@@ -1,54 +1,43 @@
-# Voss tactics quick reference
+# Voss tactics with strategy-script separation
 
-## Model and mindset
-- FBI-style negotiation is emotion-first, not purely rational.
-- Harvard-style interest-based negotiation assumes rational actors.
-- Tactical empathy is used to calm emotions and surface information.
+## Core mindset
+- Tactical empathy surfaces constraints before pushing outcomes.
+- "No" can reduce resistance and create psychological safety.
 - Aim for "that's right" to confirm deep understanding.
-- "No" is useful: it creates safety and reduces resistance.
 
-## Tactical empathy
-- Demonstrate understanding of the other side's feelings and constraints.
-- Use labels and summaries to show you heard them.
-- Aim to make the other side feel understood, not agreed with.
+## Strategy layer tools
+- BATNA: best alternative if no deal.
+- ZOPA: likely overlap range between both sides.
+- Guardrails: non-negotiables and walk-away threshold.
 
-## Mirroring
-- Repeat 1-3 key words with a curious tone.
-- Pause after mirroring to encourage elaboration.
-- Use silence to prompt more detail.
+## Script layer tools
 
-## Labeling
-- Use: "It seems like...", "It sounds like...", "It looks like..."
-- Aim to surface emotions, not judge them.
-- Follow with a pause, then let them correct or confirm.
+### Labeling
+- Use: "It seems like...", "It sounds like..."
+- Purpose: name emotions or constraints neutrally.
 
-## Calibrated questions
-- Prefer how/what questions that make the other side solve the problem.
-- Avoid why questions that create defensiveness.
-- Examples: "How am I supposed to do that?" "What is the biggest challenge here?"
+### Mirroring
+- Repeat 1-3 key words with upward inflection.
+- Pause and allow elaboration.
 
-## No-oriented questions
-- Give control and reduce resistance.
-- Examples: "Is now a bad time?" "Would it be ridiculous to..."
+### Calibrated questions
+- Prefer how and what.
+- Examples: "How should we structure this so both sides can execute?"
 
-## Accusation audit
-- List the negative things they might think about you or the offer.
-- Say them out loud early to defuse them.
-- Keep it short and neutral, not dramatic.
+### Accusation audit
+- Surface negative assumptions about your side early.
+- Keep statements concise and non-defensive.
 
-## Summaries and "that's right"
-- Summarize their view and emotions, then ask if you got it right.
-- Aim for "that's right" instead of "you're right".
-- Use summaries after tension or new information.
+### Summary check
+- Summarize facts + emotions + constraints.
+- Ask for correction and seek "that's right".
 
-## Fairness trigger
-- When you hear "fair", slow down and ask for definition.
-- Use: "What does fair look like to you?"
+## Concession discipline
+- Never concede without reciprocal value.
+- Trade variables can include term length, scope, payment timing, and governance.
+- Sequence small concessions before larger ones.
 
-## Anchors and first offers
-- Expect anchoring. Use calibrated questions to counter: "How did you arrive at that number?"
-- When you anchor, pair it with credible rationale.
-
-## Voice and pace
-- Use a calm, slow, downward inflection when defusing conflict.
-- Lower volume to reduce tension.
+## Red flags
+- Agreement without decision authority present.
+- Repeated fairness claims with no concrete criteria.
+- Last-minute scope expansion without compensating trade.

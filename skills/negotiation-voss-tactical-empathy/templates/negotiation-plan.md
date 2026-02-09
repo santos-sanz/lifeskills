@@ -1,37 +1,47 @@
-# Negotiation plan
+# Negotiation plan (decision-ready)
 
 ## Context
-- Situation:
-- Parties:
-- Stakes:
+- Negotiation type and stakes:
+- Parties and decision process:
+- Timeline and pressure points:
 
-## Objective and limits
-- Primary objective:
-- Success metrics:
-- Minimum acceptable:
-- Walk-away:
+## Decision or recommendation
+- Recommended strategy posture:
+- Target outcome:
+- Walk-away boundary:
 
-## Counterparty map
-- Roles and decision makers:
-- Incentives and pressures:
-- Likely emotions:
+## Analysis
+### Strategy layer
+- BATNA:
+- ZOPA estimate (conservative/optimistic):
+- Counterparty incentives and constraints:
+- Key leverage points:
 
-## Hypotheses and black swans
-- Hypotheses:
-- Possible hidden constraints:
+### Script layer
+- Opening label:
+- Calibrated how/what questions:
+- Mirror prompts:
+- Accusation audit statements:
+- Summary to reach "that's right":
 
-## Tactical script
-- Opening:
-- Calibrated questions:
-- Labels:
-- Accusation audit:
-- Summary prompt:
+### Concession ladder
+- Concession 1 (condition required):
+- Concession 2 (condition required):
+- Non-negotiables:
 
-## Concessions and trades
-- Concession options:
-- Trade rules:
+## Risks
+- Risk: emotional escalation
+- Mitigation:
+- Risk: false agreement without decision authority
+- Mitigation:
 
-## Risks and next steps
-- Risks:
-- Mitigations:
-- Next steps:
+## Next actions
+- Action:
+- Owner:
+- Date:
+- Success signal:
+
+## Assumptions
+- Assumption:
+- Confidence (high/medium/low):
+- Validation needed:

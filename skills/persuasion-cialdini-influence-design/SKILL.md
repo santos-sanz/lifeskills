@@ -1,6 +1,6 @@
 ---
 name: persuasion-cialdini-influence-design
-description: Design ethical persuasion using Cialdini principles. Use when crafting messages, proposals, or campaigns that need reciprocity, commitment, social proof, authority, liking, scarcity, or unity.
+description: Design ethical persuasion using Cialdini principles with evidence-backed claims. Use when crafting high-impact messages, proposals, or campaigns that require principle-to-proof traceability and channel-specific execution.
 ---
 
 # Cialdini Influence Design
@@ -8,36 +8,55 @@ description: Design ethical persuasion using Cialdini principles. Use when craft
 Use $ARGUMENTS as initial context.
 
 ## When to use this skill
-- Writing persuasive emails, landing pages, or sales decks.
-- Creating proposals, pitches, or internal change messages.
-- Designing campaigns that need social proof or authority.
-- Any request to influence behavior ethically.
+- Persuasive emails, pitches, proposals, and campaign messaging.
+- Internal influence communications requiring buy-in.
+- GTM or marketing copy that needs credible proof structures.
+- Situations where persuasion must remain ethical and non-manipulative.
 
-## How to use this skill
-1. Define objective, audience, desired action, and ethical boundaries.
+## Required inputs
+- Objective, audience, and desired action.
+- Available proof points and constraints.
+- Channel, tone, and execution timeline.
+
+## Workflow
+1. Define target behavior and decision context.
 2. Identify barriers, motivators, and decision criteria.
-3. Select 2-3 principles that fit the context.
-4. Map each principle to concrete evidence.
-5. Draft the message with structure: hook, value, proof, action.
-6. Adapt tone and format to the delivery channel.
-7. Propose variants and a simple test plan if needed.
-8. If information is missing, ask targeted questions.
+3. Select 2-3 Cialdini principles that best match context.
+4. Build traceability matrix: principle -> evidence -> claim.
+5. Draft channel-specific message variants with clear CTA.
+6. Run ethical risk check and adjust risky framing.
+
+## Ask-first questions
+Ask up to 3 questions before drafting:
+1. What action should the audience take and by when?
+2. Which proof points are verifiable today?
+3. What ethical or legal boundaries cannot be crossed?
+
+## Assumption policy
+- If proof is incomplete, clearly mark assumptions and confidence.
+- Do not use fabricated urgency, fake social proof, or inflated authority.
+- State when claim strength exceeds evidence strength.
+
+## Output contract
+Always produce these sections in order:
+1. Context
+2. Decision or Recommendation
+3. Analysis
+4. Risks
+5. Next Actions
+6. Assumptions
+
+## Guardrails
+- Every persuasive claim must map to verifiable evidence.
+- Keep emotional framing proportional to factual support.
+- Include at least one trust-preserving alternative for skeptical audiences.
+- Reject coercive language or misleading scarcity.
 
 ## Resources
-- `references/cialdini-principles.md` - Definitions, best use cases, pitfalls.
-- `references/ethical-guardrails.md` - Check for coercion or manipulation.
-- `templates/persuasion-brief.md` - Final structure.
-- `examples/persuasion-cialdini-example.md` - Sample output.
-
-## Output guidelines
-- Provide 1-3 message variants when useful.
-- Tie each proof point to a chosen principle.
-- Respond in English.
-
-## Missing information to ask for
-- Audience, context, and channel.
-- Primary benefit, objections, and proof points.
-- Constraints (brand, legal, tone, length).
+- `references/cialdini-principles.md` - Principle selection and usage cues.
+- `references/ethical-guardrails.md` - Non-manipulation and compliance checks.
+- `templates/persuasion-brief.md` - Decision-ready persuasion template.
+- `examples/persuasion-cialdini-example.md` - Golden example with proof mapping.
 
 ## Keywords
-persuasion, Cialdini, social proof, authority, reciprocity, scarcity, commitment, unity
+persuasion, Cialdini, social proof, authority, reciprocity, scarcity, commitment, ethics

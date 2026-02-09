@@ -1,24 +1,32 @@
-# Hypothesis design
+# Hypothesis design with disconfirmation discipline
 
-## Hypothesis-driven approach
-- Start with a likely answer, then test it quickly.
-- Prioritize disconfirming evidence to avoid bias.
-- Update or replace hypotheses as data arrives.
+## Core principle
+A useful hypothesis must be falsifiable, directional, and tied to one measurable outcome.
 
-## Criteria
-- Falsifiable and testable
-- Directional, not just descriptive
-- Specific to a segment, channel, or driver
-- Tied to a measurable outcome
+## Required format
+- Use: "If X, then Y, because Z.".
+- X = testable driver.
+- Y = measurable outcome.
+- Z = causal mechanism.
 
-## Wording pattern
-"If X is true, then Y should happen because Z."
+## Signal design requirements
+For each hypothesis define:
+- Confirming signal (what supports it).
+- Disconfirming signal (what weakens it).
+- Kill threshold (when to stop investing).
 
-## Examples
-- If onboarding completion increases, then activation rises because users reach value faster.
-- If enterprise renewals drop, then churn increases because pricing is above value.
+## Good hypothesis criteria
+- Specific to segment, channel, or context.
+- Measurable within decision timeline.
+- Independent from other hypotheses where possible.
+- Clear owner for testing.
 
-## Common pitfalls
-- Too broad or vague
-- No measurable outcome
-- Mixing multiple drivers in one hypothesis
+## Anti-patterns
+- "We should improve onboarding" (action, not hypothesis).
+- "Customers are unhappy" (descriptive, not causal).
+- Multi-causal hypothesis with no isolatable signal.
+
+## Evidence confidence tags
+- High: validated data with stable definitions.
+- Medium: partial data or proxy metrics.
+- Low: anecdotal or incomplete evidence.

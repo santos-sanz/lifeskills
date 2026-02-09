@@ -1,6 +1,6 @@
 ---
 name: negotiation-voss-tactical-empathy
-description: Build negotiation prep, scripts, and tactical empathy based on Chris Voss (Never Split the Difference). Use when planning or running a negotiation, handling objections, anchoring, or designing concessions and a close.
+description: Prepare and run negotiations using tactical empathy and structured trade design. Use when handling high-stakes salary, vendor, contract, or scope discussions that require strategy-script separation, BATNA/ZOPA framing, and concession guardrails.
 ---
 
 # Tactical Empathy Negotiation
@@ -8,36 +8,55 @@ description: Build negotiation prep, scripts, and tactical empathy based on Chri
 Use $ARGUMENTS as initial context.
 
 ## When to use this skill
-- Salary, vendor, procurement, or contract negotiations.
-- Handling objections, anchors, or stuck conversations.
-- Preparing talk tracks, concessions, and closing plans.
-- Any high-stakes agreement that needs tactical empathy.
+- Salary, vendor, procurement, partnership, or renewal negotiation.
+- Conversations with conflict risk or stalled progress.
+- Scenarios requiring structured concessions and fallback strategy.
+- Any negotiation where emotional dynamics influence outcome.
 
-## How to use this skill
-1. Define the objective, success metrics, limits, and walk-away.
-2. Map the counterparty: roles, incentives, pressures, emotions.
-3. List hypotheses and possible black swans.
-4. Build a question ladder with calibrated how and what questions.
-5. Draft a conversation script using tactical empathy and core tactics.
-6. Design a concession plan with trade rules and guardrails.
-7. Run a pre-mortem and add mitigations.
-8. If information is missing, ask targeted questions.
+## Required inputs
+- Target outcome, minimum acceptable, and walk-away position.
+- Counterparty map (decision makers, incentives, constraints).
+- Timeline, pressure points, and fallback options.
+
+## Workflow
+1. Define strategy layer: objective, BATNA, ZOPA estimate, and guardrails.
+2. Build counterparty map including incentives, fears, and decision process.
+3. Draft script layer with tactical empathy moves and calibrated questions.
+4. Design conditional concession ladder with trade rules.
+5. Run pre-mortem for breakdown scenarios and recovery paths.
+6. Prepare follow-up close plan with written confirmation steps.
+
+## Ask-first questions
+Ask up to 3 questions before drafting:
+1. What is your walk-away point and best alternative (BATNA)?
+2. Who actually approves the final agreement?
+3. Which non-price variables can be traded (scope, timing, terms)?
+
+## Assumption policy
+- If ZOPA is uncertain, present conservative and optimistic ranges.
+- Separate assumptions about facts from assumptions about behavior.
+- Never fabricate leverage or commitments.
+
+## Output contract
+Always produce these sections in order:
+1. Context
+2. Decision or Recommendation
+3. Analysis
+4. Risks
+5. Next Actions
+6. Assumptions
+
+## Guardrails
+- Keep strategy and script explicitly separated.
+- No manipulative or deceptive tactics.
+- Concessions must be conditional and reciprocal.
+- Do not recommend agreement below walk-away threshold.
 
 ## Resources
-- `references/voss-tactics.md` - Definitions and sample phrasing.
-- `references/negotiation-checklist.md` - Prep and execution checks.
-- `templates/negotiation-plan.md` - Final structure.
-- `examples/negotiation-voss-example.md` - Sample output.
-
-## Output guidelines
-- Deliver a structured plan and short talk tracks.
-- Keep scripts concise and realistic for live conversation.
-- Respond in English.
-
-## Missing information to ask for
-- Context and negotiation type (price, salary, contract, timeline).
-- Primary objective, minimum acceptable, and walk-away.
-- Constraints, deadlines, decision makers, and BATNA on both sides.
+- `references/voss-tactics.md` - Tactics and script patterns.
+- `references/negotiation-checklist.md` - Preparation and execution controls.
+- `templates/negotiation-plan.md` - Decision-ready negotiation template.
+- `examples/negotiation-voss-example.md` - Golden example with limited information.
 
 ## Keywords
-negotiation, tactical empathy, Voss, mirroring, labeling, calibrated questions, objections, concessions, close
+negotiation, tactical empathy, Voss, BATNA, ZOPA, concessions, calibrated questions, close

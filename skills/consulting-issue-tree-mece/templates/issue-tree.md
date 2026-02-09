@@ -1,24 +1,46 @@
-# Issue tree
+# Issue tree (decision-ready)
 
-## Problem statement
-- Statement:
+## Context
+- Problem statement:
 - Metric and baseline:
-- Time horizon:
+- Scope boundaries:
+- Decision deadline:
 
-## Tree type
-- Driver | Process | Option | Hypothesis
+## Decision or recommendation
+- Decision this tree informs:
+- Recommended focus branches:
+- Why these branches first:
 
-## Issue tree (ASCII)
+## Analysis
+### Tree type and rationale
+- Tree type: Driver | Process | Option | Hypothesis
+- Selection rationale:
+
+### Issue tree (ASCII)
+
+### MECE validation
+- Overlap check passed (yes/no + notes):
+- Exhaustiveness check passed (yes/no + notes):
+- Level consistency check passed (yes/no + notes):
+
+### Branch prioritization
+- Branch 1 (impact, controllability, speed score):
+- Branch 2 (impact, controllability, speed score):
+- Branch 3 (impact, controllability, speed score):
+
+## Risks
+- Risk: wrong branch framing
+- Mitigation:
+- Risk: data blind spots
+- Mitigation:
+
+## Next actions
+- Analysis task:
+- Owner:
+- Date:
+- Success signal:
 
 ## Assumptions
--
-
-## Priority branches
-1.
-2.
-3.
-
-## Analyses and data needs
-- Branch 1 analysis:
-- Branch 2 analysis:
-- Branch 3 analysis:
+- Assumption:
+- Confidence (high/medium/low):
+- Validation needed:

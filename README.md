@@ -25,6 +25,13 @@ Applies Barbara Minto's Pyramid Principle for top-down communication.
 *   **Best for:** Executive summaries, leadership memos, and strategy presentations.
 *   **Key Capabilities:** Structuring arguments from conclusion to supporting details.
 
+### Mindset & Personal Strategy
+
+#### [luffy-mindset](skills/luffy-mindset)
+Applies an audacious, practical "Luffy Mindset" for bold execution plans when explicitly requested.
+*   **Best for:** Breaking hesitation, pursuing ambitious goals, and converting fear into action.
+*   **Key Capabilities:** Fearless reframing, 3-7 step action planning, risk countermoves, and 24-hour commitment starts.
+
 ### Consulting Frameworks
 
 #### [consulting-issue-tree-mece](skills/consulting-issue-tree-mece)

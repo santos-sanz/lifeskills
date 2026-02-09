@@ -18,8 +18,14 @@ Ethical persuasion design using Cialdini principles with principle-to-evidence-t
 
 ## Structured communication
 
-### [pyramid-principle-structured-communication](skills/pyramid-principle-structured-communication)
-Answer-first executive communication using BLUF + SCQA + MECE support logic.
+### Mindset & Personal Strategy
+
+#### [luffy-mindset](skills/luffy-mindset)
+Applies an audacious, practical "Luffy Mindset" for bold execution plans when explicitly requested.
+*   **Best for:** Breaking hesitation, pursuing ambitious goals, and converting fear into action.
+*   **Key Capabilities:** Fearless reframing, 3-7 step action planning, risk countermoves, and 24-hour commitment starts.
+
+### Consulting Frameworks
 
 ## Consulting frameworks
 

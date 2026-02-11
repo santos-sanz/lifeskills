@@ -25,7 +25,12 @@ Applies an audacious, practical "Luffy Mindset" for bold execution plans when ex
 *   **Best for:** Breaking hesitation, pursuing ambitious goals, and converting fear into action.
 *   **Key Capabilities:** Fearless reframing, 3-7 step action planning, risk countermoves, and 24-hour commitment starts.
 
-### Consulting Frameworks
+### Leadership Execution
+
+#### [high-agency](skills/high-agency)
+Applies George Mack's High Agency framework for founder and leadership execution under uncertainty.
+*   **Best for:** High-stakes decisions, execution bottlenecks, ambiguous constraints, and cross-functional deadlocks.
+*   **Key Capabilities:** Converting vague blockers into specific constraints, generating high-agency options, and driving 24-72h action plans.
 
 ## Consulting frameworks
 
@@ -70,6 +75,15 @@ Target acceptance thresholds:
 ```bash
 npx skills add https://github.com/santos-sanz/lifeskills
 ```
+
+Once installed, these skills are automatically available to the agent. You can invoke them explicitly or rely on the agent's intent detection.
+
+**Examples:**
+
+*   *"Help me negotiate a vendor renewal for 2026 using tactical empathy."*
+*   *"Draft a persuasive email to the CFO using Cialdini's principles."*
+*   *"Create a MECE issue tree to analyze why user retention is dropping."*
+*   *"We are blocked on launch and everyone says it's impossible. Build a high-agency decision memo for the next 72 hours."*
 
 ## Repository structure
 

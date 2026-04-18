@@ -18,6 +18,11 @@ Ethical persuasion design using Cialdini principles with principle-to-evidence-t
 
 ## Structured communication
 
+### Executive Communication
+
+#### [pyramid-principle-structured-communication](skills/pyramid-principle-structured-communication)
+Answer-first executive storytelling for board updates, recommendations, and decision memos.
+
 ### Mindset & Personal Strategy
 
 #### [luffy-mindset](skills/luffy-mindset)
@@ -48,7 +53,7 @@ Portfolio allocation and growth sequencing using BCG, GE/McKinsey, and Ansoff lo
 
 ## Shared output contract
 
-Every skill is designed to return the same section order:
+Most decision-oriented skills use the same section order:
 1. Context
 2. Decision or Recommendation
 3. Analysis
@@ -56,19 +61,26 @@ Every skill is designed to return the same section order:
 5. Next Actions
 6. Assumptions
 
+Specialized execution skills such as `high-agency` and `luffy-mindset` use their canonical templates instead of the generic contract.
+
 This improves consistency across skills and makes outputs easier to review in high-stakes workflows.
 
 ## Quality system
 
 The repository includes a reusable evaluation framework in [`quality/`](quality):
 - `quality/rubric.md`: common scoring rubric (1-5).
-- `quality/test-prompts.md`: 4 test prompts per skill (28 total).
+- `quality/test-prompts.md`: 4 test prompts per skill (36 total).
 - `quality/eval-log-template.md`: logging template for manual evaluations.
+- `scripts/lint_skills.py`: local lint gate for skill structure, catalog coverage, and prompt coverage.
 
 Target acceptance thresholds:
 - Per-skill average >= 4.2
 - No criterion below 3.5
 - Zero critical guardrail failures
+
+## Validation workflow
+
+Run `python scripts/lint_skills.py` after any skill edit. Fix every reported issue before staging, committing, or pushing.
 
 ## Installation
 
@@ -94,6 +106,8 @@ skills/
     references/
     templates/
     examples/
+scripts/
+  lint_skills.py
 quality/
   rubric.md
   test-prompts.md
@@ -107,3 +121,4 @@ This iteration integrated patterns commonly used in high-quality agent skills ec
 - Rubric-driven evaluation for quality control.
 - Explicit uncertainty and assumption tagging.
 - Ethical guardrails for persuasion and negotiation tasks.
+- Local lint gating before publish.

@@ -1,6 +1,6 @@
 ---
 name: high-agency
-description: Apply George Mack's High Agency approach to founder and leadership execution. Use when facing ambiguity, blockers, stalled execution, "impossible" constraints, cross-functional deadlock, or high-uncertainty decisions that require ownership and rapid action.
+description: Apply George Mack's High Agency approach to founder and leadership execution. Use when ambiguity, blockers, stalled execution, impossible constraints, or cross-functional deadlock require ownership and rapid action.
 ---
 
 # High Agency
@@ -14,7 +14,15 @@ Use $ARGUMENTS as initial context.
 - Cross-functional deadlock with unclear ownership.
 - High-stakes moments needing fast, pragmatic action.
 
-## How to use this skill
+## Required inputs
+- Decision to make now.
+- Desired outcome.
+- Deadline or decision window.
+- Hard constraints (time, money, team, legal, technical).
+- Key stakeholders and decision owners.
+- Known leverage and available resources.
+
+## Workflow
 1. Define the decision, objective, timeline, and downside of inaction.
 2. Convert vague constraints into specific facts and assumptions.
 3. Separate controllables from non-controllables.
@@ -24,28 +32,43 @@ Use $ARGUMENTS as initial context.
 7. Define feedback loops: signal, checkpoint, and pivot trigger.
 8. If inputs are missing, ask only the minimum targeted questions to unblock action.
 
+## Ask-first questions
+Ask up to 3 questions before drafting:
+1. What is the decision or objective to resolve now?
+2. What hard constraints and deadline are binding?
+3. Who owns the decision and what leverage is available?
+
+## Assumption policy
+- Separate facts from assumptions.
+- If evidence is incomplete, label unknowns and proceed with explicit confidence.
+- Never invent leverage, commitments, or constraints.
+- When uncertainty is high, offer conservative and aggressive options.
+
+## Output contract
+Always produce the `High Agency Decision Memo` structure:
+1. Decision / Objective
+2. Constraints
+3. What I Control vs What I Don't
+4. High-Agency Options
+5. Chosen Path + Why
+6. 24-72h Action Plan
+7. Stakeholder Asks
+8. Feedback Loop and Trigger Points
+9. Risks and Mitigations
+10. Next Review Checkpoint
+
+## Guardrails
+- Keep strategy and execution steps concrete and timeboxed.
+- Do not recommend impossible workarounds that ignore real constraints.
+- Avoid motivational fluff; every recommendation should map to action.
+- Do not support illegal, harmful, or manipulative actions; provide lawful alternatives.
+
 ## Resources
 - `references/high-agency-principles.md` - Core doctrine distilled from George Mack.
 - `references/high-agency-tools.md` - Daily operating tools with usage conditions and failure modes.
 - `references/founder-scenarios.md` - Founder/leadership playbooks for common high-pressure situations.
 - `templates/high-agency-decision-memo.md` - Canonical output structure.
 - `examples/high-agency-decision-memo-example.md` - Realistic worked example.
-
-## Output guidelines
-- Default output is the `High Agency Decision Memo` template.
-- Keep language concrete, operational, and timeboxed.
-- Avoid abstract motivational advice.
-- Include at least one stakeholder ask that can be sent immediately.
-- Do not support illegal, harmful, or manipulative actions; provide a lawful and ethical alternative path.
-- Respond in English.
-
-## Missing information to ask for
-- Decision or objective to resolve now.
-- Hard constraints (time, money, team, legal, technical).
-- Deadline and decision window.
-- Key stakeholders and decision owners.
-- Available resources and current leverage.
-- Risk tolerance and unacceptable outcomes.
 
 ## Keywords
 high agency, George Mack, learned helplessness, constraints, leverage, founder execution, leadership, ambiguity, feedback loops, decision memo

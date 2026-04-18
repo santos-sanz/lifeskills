@@ -2,6 +2,7 @@
 
 Run each prompt against the target skill and score with `quality/rubric.md`.
 Prompt types per skill: happy path, missing critical info, conflicting objectives, high-stakes constraint.
+There are 4 prompts per skill across 9 skills, for 36 prompts total.
 
 ## pyramid-principle-structured-communication
 
@@ -16,6 +17,34 @@ Prepare an executive memo that both cuts costs immediately and increases custome
 
 ### High-stakes constraint
 Write a decision memo for a compliance incident where legal risk is high and external communication must happen within 24 hours.
+
+## luffy-mindset
+
+### Happy path
+Turn my goal of getting the first 10 consulting clients in 90 days into a Luffy-style bold action plan.
+
+### Missing critical info
+I want a Luffy mindset plan to quit procrastinating, but I have not picked a target yet.
+
+### Conflicting objectives
+Create a Luffy-style plan that is fearless but realistic while keeping my current job.
+
+### High-stakes constraint
+I have 24 hours to decide whether to apply for a new role and need an audacious but practical push.
+
+## high-agency
+
+### Happy path
+We are blocked on a product launch because engineering says the remaining scope is impossible to ship by Friday. Build a high-agency decision memo for the next 72 hours.
+
+### Missing critical info
+I need a high-agency plan to resolve a hiring bottleneck, but I do not know the exact budget or decision owner yet.
+
+### Conflicting objectives
+Create a high-agency plan that accelerates launch while also reducing team workload and preserving quality.
+
+### High-stakes constraint
+We have a regulatory deadline in 48 hours and the team is split on the path forward; build a decision memo.
 
 ## consulting-issue-tree-mece
 

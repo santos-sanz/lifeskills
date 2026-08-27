@@ -185,3 +185,31 @@ Synthesize research where reputable sources disagree on market growth because th
 
 ### High-stakes constraint
 Research a time-sensitive policy change that affects compliance decisions, with limited access to primary sources and a requirement to avoid unsupported legal conclusions.
+
+## anti-ai-slop-content-creation
+
+### Happy path
+Turn my notes from a failed product launch into a specific, natural 500-word post for experienced builders without inventing details.
+
+### Missing critical info
+Make this article sound human, but I have not provided any concrete experience, source material, audience, or publication channel.
+
+### Conflicting objectives
+Write persuasive launch copy that feels authentic and energetic while avoiding inflated claims, fake urgency, and generic AI phrasing.
+
+### High-stakes constraint
+Rewrite a personal application statement where factual accuracy, privacy, attribution, and the distinction between my experience and placeholders must be preserved.
+
+## anti-ai-tools-user-experience
+
+### Happy path
+Audit an AI support-reply tool and propose improvements to its onboarding, uncertainty states, editing controls, review checkpoint, accessibility, and success metrics.
+
+### Missing critical info
+Improve the UX of an AI tool, but I have not told you who the users are, what task they perform, how the model behaves, or what failure looks like.
+
+### Conflicting objectives
+Design an AI assistant experience that increases task completion and speed while preserving user control, transparent limitations, privacy, and calibrated trust.
+
+### High-stakes constraint
+Improve an AI workflow used for compliance decisions where incorrect outputs, hidden data use, inaccessible controls, or premature automation could cause material harm.

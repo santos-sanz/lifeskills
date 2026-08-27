@@ -71,6 +71,16 @@
       "required_output_sections": ["Research question and scope", "Executive synthesis", "Evidence ledger", "Conflicts and gaps", "Implications or recommendation", "Next actions", "Sources and freshness", "Assumptions"],
       "critical_guardrails": ["Never fabricate citations", "Protect personal data"],
       "handoffs": ["consulting-market-competition-analysis", "decision-analysis-under-uncertainty", "pyramid-principle-structured-communication", "persuasion-cialdini-influence-design"]
+    },
+    "anti-ai-slop-content-creation": {
+      "required_output_sections": ["Context and audience", "Core point and human angle", "Source inventory", "Draft", "Anti-slop audit", "Verification and attribution", "Next actions", "Assumptions"],
+      "critical_guardrails": ["Never invent personal experience", "Replace generic abstraction with a specific fact"],
+      "handoffs": ["research-evidence-synthesis", "pyramid-principle-structured-communication", "persuasion-cialdini-influence-design", "difficult-conversations-feedback"]
+    },
+    "anti-ai-tools-user-experience": {
+      "required_output_sections": ["User and context", "Job and success criteria", "Journey and friction map", "Interaction and state design", "Copy and affordance proposals", "Safety, trust, and accessibility checks", "Measurement and experiment", "Next actions", "Assumptions"],
+      "critical_guardrails": ["Never imply model certainty", "Do not use dark patterns"],
+      "handoffs": ["research-evidence-synthesis", "decision-analysis-under-uncertainty", "anti-ai-slop-content-creation", "pyramid-principle-structured-communication"]
     }
   }
 }

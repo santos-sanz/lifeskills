@@ -14,6 +14,14 @@ Source-backed research with claim ledgers, freshness checks, conflict reconcilia
 #### [decision-analysis-under-uncertainty](skills/decision-analysis-under-uncertainty)
 Transparent option comparison using criteria, weights, scenarios, reversibility, risk, and decision triggers.
 
+### AI-native craft
+
+#### [anti-ai-slop-content-creation](skills/anti-ai-slop-content-creation)
+Human-facing content grounded in specific source material, honest voice, useful detail, and an explicit anti-slop audit.
+
+#### [anti-ai-tools-user-experience](skills/anti-ai-tools-user-experience)
+AI-tool UX improvement focused on calibrated trust, user control, failure recovery, accessibility, privacy, and measurable outcomes.
+
 ### Structured communication and influence
 
 #### [pyramid-principle-structured-communication](skills/pyramid-principle-structured-communication)
@@ -66,6 +74,8 @@ Choose the skill that matches the primary job to be done, then hand off when the
 | Allocate resources across units | `consulting-portfolio-growth-strategy` | Execution operating system |
 | Unblock a 24–72 hour execution constraint | `high-agency` | Execution operating system or pyramid communication |
 | Run a multi-week initiative | `execution-operating-system` | Pyramid communication for progress reporting |
+| Create or repair human-facing content | `anti-ai-slop-content-creation` | Research for missing evidence or pyramid communication for executive structure |
+| Audit or improve an AI tool experience | `anti-ai-tools-user-experience` | Research for user evidence or decision analysis for product trade-offs |
 | Prepare a conversation with behavior change or boundaries | `difficult-conversations-feedback` | Negotiation only if terms are exchanged |
 | Prepare a negotiation with reciprocal terms | `negotiation-voss-tactical-empathy` | Pyramid communication or decision analysis |
 | Draft an executive decision message | `pyramid-principle-structured-communication` | Final presentation layer |
@@ -96,7 +106,7 @@ Specialized skills use their canonical templates. All skills must:
 The repository includes a deterministic contract benchmark and a manual response-evaluation protocol:
 
 - `quality/rubric.md`: common scoring rubric from 1–5.
-- `quality/test-prompts.md`: 4 test prompts per skill (52 total).
+- `quality/test-prompts.md`: 4 test prompts per skill (60 total).
 - `quality/benchmark-manifest.json`: required sections, guardrails, and handoffs for every skill.
 - `quality/eval-log-template.md`: manual evaluation log with model, commit, and rubric fields.
 - `scripts/lint_skills.py`: structure, resource, catalog, and prompt coverage gate.

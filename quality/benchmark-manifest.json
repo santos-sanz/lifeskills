@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "prompt_types": [
+    "Happy path",
+    "Missing critical info",
+    "Conflicting objectives",
+    "High-stakes constraint"
+  ],
+  "skills": {
+    "consulting-hypothesis-driven-80-20": {
+      "required_output_sections": ["Context", "Decision or Recommendation", "Analysis", "Risks", "Next Actions", "Assumptions"],
+      "critical_guardrails": ["Hypotheses must follow:", "Include both confirming and disconfirming signals"],
+      "handoffs": ["consulting-issue-tree-mece", "decision-analysis-under-uncertainty", "execution-operating-system"]
+    },
+    "consulting-issue-tree-mece": {
+      "required_output_sections": ["Context", "Decision or Recommendation", "Analysis", "Risks", "Next Actions", "Assumptions"],
+      "critical_guardrails": ["No branch overlap at the same level", "Do not mix causes, outcomes, actions, and metrics"],
+      "handoffs": ["consulting-hypothesis-driven-80-20", "decision-analysis-under-uncertainty", "pyramid-principle-structured-communication"]
+    },
+    "consulting-market-competition-analysis": {
+      "required_output_sections": ["Context", "Decision or Recommendation", "Analysis", "Risks", "Next Actions", "Assumptions"],
+      "critical_guardrails": ["Do not present single-point market size without method disclosure", "Show the method and units behind every market-size range"],
+      "handoffs": ["research-evidence-synthesis", "decision-analysis-under-uncertainty", "consulting-portfolio-growth-strategy"]
+    },
+    "consulting-portfolio-growth-strategy": {
+      "required_output_sections": ["Context", "Decision or Recommendation", "Analysis", "Risks", "Next Actions", "Assumptions"],
+      "critical_guardrails": ["Do not map units without stating scoring criteria and weights", "Do not recommend an allocation that exceeds verified capacity"],
+      "handoffs": ["consulting-market-competition-analysis", "decision-analysis-under-uncertainty", "execution-operating-system"]
+    },
+    "decision-analysis-under-uncertainty": {
+      "required_output_sections": ["Decision and owner", "Options", "Criteria and weights", "Scenario analysis", "Reversibility and risk", "Recommendation", "Triggers and review date", "Next actions", "Assumptions"],
+      "critical_guardrails": ["Do not use false precision", "Do not invent probabilities"],
+      "handoffs": ["research-evidence-synthesis", "consulting-issue-tree-mece", "high-agency", "execution-operating-system", "pyramid-principle-structured-communication"]
+    },
+    "difficult-conversations-feedback": {
+      "required_output_sections": ["Context and goal", "Observations and impact", "Conversation plan", "Script and listening prompts", "Response branches", "Boundary or request", "Follow-up", "Risks and safety", "Assumptions"],
+      "critical_guardrails": ["do not diagnose motives", "Do not recommend retaliation", "Escalate immediate safety"],
+      "handoffs": ["negotiation-voss-tactical-empathy", "pyramid-principle-structured-communication", "high-agency"]
+    },
+    "execution-operating-system": {
+      "required_output_sections": ["Outcome and definition of done", "Workstreams and critical path", "Ownership and operating cadence", "Metrics and review gates", "Risks, blockers, and escalation", "First cycle plan", "Assumptions"],
+      "critical_guardrails": ["Do not create a plan without a measurable outcome", "Protect quality, safety, and sustainable workload"],
+      "handoffs": ["decision-analysis-under-uncertainty", "high-agency", "consulting-portfolio-growth-strategy", "pyramid-principle-structured-communication"]
+    },
+    "high-agency": {
+      "required_output_sections": ["Decision / Objective", "Constraints", "What I Control vs What I Don't", "High-Agency Options", "Chosen Path + Why", "24-72h Action Plan", "Stakeholder Asks", "Feedback Loop and Trigger Points", "Risks and Mitigations", "Next Review Checkpoint"],
+      "critical_guardrails": ["Do not support illegal, harmful, or manipulative actions", "Protect team capacity and quality"],
+      "handoffs": ["execution-operating-system", "decision-analysis-under-uncertainty", "pyramid-principle-structured-communication"]
+    },
+    "luffy-mindset": {
+      "required_output_sections": ["Dream Goal", "Current Wall", "Luffy Reframe", "Top 3-7 Actions", "Risks and Countermoves", "First 24 Hours", "Commitment Line"],
+      "critical_guardrails": ["Do not activate from generic ambition", "Never fabricate facts, dates, citations, or outcomes"],
+      "handoffs": ["high-agency", "decision-analysis-under-uncertainty", "execution-operating-system"]
+    },
+    "negotiation-voss-tactical-empathy": {
+      "required_output_sections": ["Context", "Decision or Recommendation", "Analysis", "Risks", "Next Actions", "Assumptions"],
+      "critical_guardrails": ["Concessions must be conditional and reciprocal", "Confirm decision authority and written terms"],
+      "handoffs": ["difficult-conversations-feedback", "pyramid-principle-structured-communication", "decision-analysis-under-uncertainty"]
+    },
+    "persuasion-cialdini-influence-design": {
+      "required_output_sections": ["Context", "Decision or Recommendation", "Analysis", "Risks", "Next Actions", "Assumptions"],
+      "critical_guardrails": ["Every persuasive claim must map to verifiable evidence", "Reject coercive language or misleading scarcity"],
+      "handoffs": ["research-evidence-synthesis", "pyramid-principle-structured-communication", "negotiation-voss-tactical-empathy"]
+    },
+    "pyramid-principle-structured-communication": {
+      "required_output_sections": ["Context", "Decision or Recommendation", "Analysis", "Risks", "Next Actions", "Assumptions"],
+      "critical_guardrails": ["Keep one governing question", "Do not hide material counterarguments"],
+      "handoffs": ["research-evidence-synthesis", "decision-analysis-under-uncertainty", "consulting-issue-tree-mece", "consulting-hypothesis-driven-80-20", "high-agency"]
+    },
+    "research-evidence-synthesis": {
+      "required_output_sections": ["Research question and scope", "Executive synthesis", "Evidence ledger", "Conflicts and gaps", "Implications or recommendation", "Next actions", "Sources and freshness", "Assumptions"],
+      "critical_guardrails": ["Never fabricate citations", "Protect personal data"],
+      "handoffs": ["consulting-market-competition-analysis", "decision-analysis-under-uncertainty", "pyramid-principle-structured-communication", "persuasion-cialdini-influence-design"]
+    },
+    "anti-ai-slop-content-creation": {
+      "required_output_sections": ["Context and audience", "Core point and human angle", "Source inventory", "Draft", "Anti-slop audit", "Verification and attribution", "Next actions", "Assumptions"],
+      "critical_guardrails": ["Never invent personal experience", "Replace generic abstraction with a specific fact"],
+      "handoffs": ["research-evidence-synthesis", "pyramid-principle-structured-communication", "persuasion-cialdini-influence-design", "difficult-conversations-feedback"]
+    },
+    "anti-ai-tools-user-experience": {
+      "required_output_sections": ["User and context", "Job and success criteria", "Journey and friction map", "Interaction and state design", "Copy and affordance proposals", "Safety, trust, and accessibility checks", "Measurement and experiment", "Next actions", "Assumptions"],
+      "critical_guardrails": ["Never imply model certainty", "Do not use dark patterns"],
+      "handoffs": ["research-evidence-synthesis", "decision-analysis-under-uncertainty", "anti-ai-slop-content-creation", "pyramid-principle-structured-communication"]
+    }
+  }
+}

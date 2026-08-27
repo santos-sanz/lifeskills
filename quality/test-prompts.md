@@ -129,3 +129,87 @@ Design messaging that increases urgency while preserving long-term trust and avo
 
 ### High-stakes constraint
 Prepare a persuasion plan for a sensitive stakeholder vote in 24 hours where factual errors could damage credibility.
+
+## decision-analysis-under-uncertainty
+
+### Happy path
+Compare whether a SaaS company should renew a strategic vendor, build an internal replacement, or negotiate a short bridge term over the next 30 days.
+
+### Missing critical info
+I need to choose between two launch options, but I do not know the decision owner's risk tolerance or the probability of the main downside.
+
+### Conflicting objectives
+Recommend an option that maximizes near-term cash, preserves long-term strategic control, and minimizes irreversible lock-in.
+
+### High-stakes constraint
+A regulatory deadline is in 48 hours and leadership must choose between a fast workaround and a slower compliant path with incomplete evidence.
+
+## difficult-conversations-feedback
+
+### Happy path
+Prepare a conversation with a project lead who keeps changing acceptance criteria after sign-off, causing rework and missed dates.
+
+### Missing critical info
+I need to give performance feedback, but I only have a vague impression that a colleague is difficult and I am unsure whether there is a safe escalation path.
+
+### Conflicting objectives
+Create a conversation plan that is direct about missed commitments while preserving dignity, psychological safety, and the working relationship.
+
+### High-stakes constraint
+Prepare for a conversation where the other person controls my evaluation and I fear retaliation if I raise repeated harassment or unsafe behavior.
+
+## execution-operating-system
+
+### Happy path
+Turn an approved six-week self-serve onboarding launch into a plan with workstreams, critical path, owners, metrics, review cadence, and escalation rules.
+
+### Missing critical info
+Build an execution system for a cross-functional initiative when capacity is unconfirmed and no one has accepted ownership of the key dependency.
+
+### Conflicting objectives
+Create a delivery cadence that increases launch speed, reduces team overload, and preserves the quality bar.
+
+### High-stakes constraint
+Coordinate a security-sensitive migration with a fixed deadline, incomplete dependency information, and no tolerance for data loss.
+
+## research-evidence-synthesis
+
+### Happy path
+Research whether a mid-market SaaS company should introduce a four-day meeting-free block, using current evidence, internal baselines, limitations, and a reversible pilot recommendation.
+
+### Missing critical info
+Prepare an evidence-backed answer about a new market opportunity when the geography, customer segment, source freshness, and trusted sources are not yet defined.
+
+### Conflicting objectives
+Synthesize research where reputable sources disagree on market growth because they use different definitions, periods, and denominators.
+
+### High-stakes constraint
+Research a time-sensitive policy change that affects compliance decisions, with limited access to primary sources and a requirement to avoid unsupported legal conclusions.
+
+## anti-ai-slop-content-creation
+
+### Happy path
+Turn my notes from a failed product launch into a specific, natural 500-word post for experienced builders without inventing details.
+
+### Missing critical info
+Make this article sound human, but I have not provided any concrete experience, source material, audience, or publication channel.
+
+### Conflicting objectives
+Write persuasive launch copy that feels authentic and energetic while avoiding inflated claims, fake urgency, and generic AI phrasing.
+
+### High-stakes constraint
+Rewrite a personal application statement where factual accuracy, privacy, attribution, and the distinction between my experience and placeholders must be preserved.
+
+## anti-ai-tools-user-experience
+
+### Happy path
+Audit an AI support-reply tool and propose improvements to its onboarding, uncertainty states, editing controls, review checkpoint, accessibility, and success metrics.
+
+### Missing critical info
+Improve the UX of an AI tool, but I have not told you who the users are, what task they perform, how the model behaves, or what failure looks like.
+
+### Conflicting objectives
+Design an AI assistant experience that increases task completion and speed while preserving user control, transparent limitations, privacy, and calibrated trust.
+
+### High-stakes constraint
+Improve an AI workflow used for compliance decisions where incorrect outputs, hidden data use, inaccessible controls, or premature automation could cause material harm.

@@ -13,12 +13,14 @@ PROMPTS_PATH = ROOT / "quality" / "test-prompts.md"
 
 REQUIRED_HEADINGS = [
     "When to use this skill",
+    "When not to use this skill",
     "Required inputs",
     "Workflow",
     "Ask-first questions",
     "Assumption policy",
     "Output contract",
     "Guardrails",
+    "Handoffs",
     "Resources",
     "Keywords",
 ]
@@ -131,6 +133,21 @@ def lint_skills(errors: list[str]) -> set[str]:
         for heading in REQUIRED_HEADINGS:
             if extract_section(body, heading) is None:
                 fail(errors, f"{skill_file.relative_to(ROOT)} is missing required heading: ## {heading}.")
+
+        heading_positions = []
+        for heading in REQUIRED_HEADINGS:
+            match = re.search(rf"^## {re.escape(heading)}\s*$", body, re.MULTILINE)
+            if match:
+                heading_positions.append((heading, match.start()))
+        if [position for _, position in heading_positions] != sorted(position for _, position in heading_positions):
+            fail(errors, f"{skill_file.relative_to(ROOT)} required headings are out of order.")
+
+        for resource_dir in ("references", "templates", "examples"):
+            resource_path = skill_dir / resource_dir
+            if not resource_path.is_dir():
+                fail(errors, f"{skill_dir.relative_to(ROOT)}/{resource_dir} directory is missing.")
+            elif not list(resource_path.glob("*.md")):
+                fail(errors, f"{skill_dir.relative_to(ROOT)}/{resource_dir} has no Markdown resources.")
 
         if "Use $ARGUMENTS as initial context." not in body:
             fail(errors, f"{skill_file.relative_to(ROOT)} should include 'Use $ARGUMENTS as initial context.'")

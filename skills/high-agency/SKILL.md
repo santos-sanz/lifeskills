@@ -14,6 +14,10 @@ Use $ARGUMENTS as initial context.
 - Cross-functional deadlock with unclear ownership.
 - High-stakes moments needing fast, pragmatic action.
 
+## When not to use this skill
+- Do not use it to dismiss proven hard constraints, bypass safety or governance, or replace evidence with motivation.
+- Do not use it for a multi-week operating cadence when the immediate blocker has already been resolved.
+
 ## Required inputs
 - Decision to make now.
 - Desired outcome.
@@ -21,6 +25,7 @@ Use $ARGUMENTS as initial context.
 - Hard constraints (time, money, team, legal, technical).
 - Key stakeholders and decision owners.
 - Known leverage and available resources.
+- Current workload, dependencies, and the cost of a wrong move.
 
 ## Workflow
 1. Define the decision, objective, timeline, and downside of inaction.
@@ -31,6 +36,7 @@ Use $ARGUMENTS as initial context.
 6. Build a 24-72h action plan with owners, concrete asks, and deadlines.
 7. Define feedback loops: signal, checkpoint, and pivot trigger.
 8. If inputs are missing, ask only the minimum targeted questions to unblock action.
+9. Set an escalation route when the constraint is legal, safety-critical, or outside the decision owner's authority.
 
 ## Ask-first questions
 Ask up to 3 questions before drafting:
@@ -43,6 +49,7 @@ Ask up to 3 questions before drafting:
 - If evidence is incomplete, label unknowns and proceed with explicit confidence.
 - Never invent leverage, commitments, or constraints.
 - When uncertainty is high, offer conservative and aggressive options.
+- Identify the evidence needed to upgrade an unknown into a fact before treating it as a hard constraint.
 
 ## Output contract
 Always produce the `High Agency Decision Memo` structure:
@@ -56,12 +63,21 @@ Always produce the `High Agency Decision Memo` structure:
 8. Feedback Loop and Trigger Points
 9. Risks and Mitigations
 10. Next Review Checkpoint
+- Label material statements as Fact, Inference, Assumption, or Unknown and include confidence where relevant.
+- Every action or stakeholder ask includes an owner, due date, and success signal.
+- State the condition that would change the chosen path.
 
 ## Guardrails
 - Keep strategy and execution steps concrete and timeboxed.
 - Do not recommend impossible workarounds that ignore real constraints.
 - Avoid motivational fluff; every recommendation should map to action.
 - Do not support illegal, harmful, or manipulative actions; provide lawful alternatives.
+- Protect team capacity and quality; high agency is not permission to normalize unsafe overwork.
+
+## Handoffs
+- Use `execution-operating-system` when the work needs a sustained cadence, dependency graph, and operating metrics.
+- Use `decision-analysis-under-uncertainty` when choosing among options is the main problem rather than unblocking execution.
+- Use `pyramid-principle-structured-communication` to package the memo for executives or a board.
 
 ## Resources
 - `references/high-agency-principles.md` - Core doctrine distilled from George Mack.

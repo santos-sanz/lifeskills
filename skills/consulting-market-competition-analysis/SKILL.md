@@ -13,18 +13,23 @@ Use $ARGUMENTS as initial context.
 - Product or GTM strategy requiring market evidence.
 - Cases where market assumptions must be made explicit and testable.
 
+## When not to use this skill
+- Do not use it for generic company strategy without a defined market boundary or customer segment.
+- Do not use it as a substitute for live source gathering when current external evidence is required.
+
 ## Required inputs
 - Market definition and geographic scope.
 - Decision to support and required depth.
 - Available internal/external data and timeline.
+- Currency, price basis, unit of analysis, and source freshness requirements.
 
 ## Workflow
 1. Define market boundary, customer segments, and time horizon.
-2. Triangulate TAM/SAM/SOM using top-down and bottom-up methods.
+2. Triangulate TAM/SAM/SOM using top-down and bottom-up methods with units, currency, period, and reconciliation.
 3. Build competitor set including substitutes and adjacent threats.
 4. Compare value propositions, pricing, channels, and capability signals.
 5. Rate uncertainty of assumptions and develop base vs stressed scenarios.
-6. Deliver implications, risks, and next analytical moves.
+6. Cite external claims with source and date, then deliver implications, risks, and next analytical moves.
 
 ## Ask-first questions
 Ask up to 3 questions before sizing:
@@ -36,6 +41,7 @@ Ask up to 3 questions before sizing:
 - Proceed with assumptions when data is incomplete.
 - Mark each key assumption with confidence and sensitivity.
 - Separate observed facts from inferred estimates.
+- Never present stale, uncited, or single-point market data as current truth.
 
 ## Output contract
 Always produce these sections in order:
@@ -45,12 +51,20 @@ Always produce these sections in order:
 4. Risks
 5. Next Actions
 6. Assumptions
+- Every external claim includes source, publication date, access date, and confidence where available.
+- Every action includes an owner, due date, and success signal.
 
 ## Guardrails
 - Do not present single-point market size without method disclosure.
 - Include at least one substitute threat in competitor mapping.
 - Distinguish strategic implication from raw market observation.
 - Flag scenario sensitivity when assumptions materially shift conclusion.
+- Show the method and units behind every market-size range.
+
+## Handoffs
+- Use `research-evidence-synthesis` when source collection, freshness, or conflicting evidence is the main work.
+- Use `decision-analysis-under-uncertainty` when the market analysis must decide between entry options.
+- Use `consulting-portfolio-growth-strategy` when the output must allocate resources across multiple units.
 
 ## Resources
 - `references/market-frameworks.md` - Framework selection and triangulation rules.

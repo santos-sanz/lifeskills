@@ -1,59 +1,81 @@
 # Lifeskills
 
-A curated collection of non-coding skills for AI agents focused on business-critical communication, strategy, negotiation, and influence.
+A curated collection of non-coding skills for AI agents focused on business-critical research, communication, strategy, execution, negotiation, and influence.
 
-These skills follow a shared quality contract for decision-ready outputs and explicit handling of uncertainty.
-
-Language of skill content: English.
+The skills use explicit activation boundaries, decision-ready output contracts, evidence labels, and practical guardrails. Skill content is written in English for compatibility with the agent-skills ecosystem.
 
 ## Skills included
 
-## Negotiation and influence
+### Research and decisions
 
-### [negotiation-voss-tactical-empathy](skills/negotiation-voss-tactical-empathy)
-Negotiation planning and execution with tactical empathy, strategy/script separation, BATNA/ZOPA framing, and conditional concessions.
+#### [research-evidence-synthesis](skills/research-evidence-synthesis)
+Source-backed research with claim ledgers, freshness checks, conflict reconciliation, citations, and uncertainty-aware synthesis.
 
-### [persuasion-cialdini-influence-design](skills/persuasion-cialdini-influence-design)
-Ethical persuasion design using Cialdini principles with principle-to-evidence-to-claim traceability.
+#### [decision-analysis-under-uncertainty](skills/decision-analysis-under-uncertainty)
+Transparent option comparison using criteria, weights, scenarios, reversibility, risk, and decision triggers.
 
-## Structured communication
-
-### Executive Communication
+### Structured communication and influence
 
 #### [pyramid-principle-structured-communication](skills/pyramid-principle-structured-communication)
-Answer-first executive storytelling for board updates, recommendations, and decision memos.
+Answer-first executive storytelling for board updates, recommendations, decision memos, and storyline-driven communication.
 
-### Mindset & Personal Strategy
+#### [persuasion-cialdini-influence-design](skills/persuasion-cialdini-influence-design)
+Ethical persuasion design using principle-to-evidence-to-claim traceability and transparent calls to action.
 
-#### [luffy-mindset](skills/luffy-mindset)
-Applies an audacious, practical "Luffy Mindset" for bold execution plans when explicitly requested.
-*   **Best for:** Breaking hesitation, pursuing ambitious goals, and converting fear into action.
-*   **Key Capabilities:** Fearless reframing, 3-7 step action planning, risk countermoves, and 24-hour commitment starts.
+#### [difficult-conversations-feedback](skills/difficult-conversations-feedback)
+Specific, respectful preparation for feedback, conflict repair, boundaries, performance concerns, and relationship reset.
 
-### Leadership Execution
+#### [negotiation-voss-tactical-empathy](skills/negotiation-voss-tactical-empathy)
+Negotiation planning with tactical empathy, strategy-script separation, BATNA/ZOPA framing, and reciprocal concessions.
+
+### Leadership and execution
 
 #### [high-agency](skills/high-agency)
-Applies George Mack's High Agency framework for founder and leadership execution under uncertainty.
-*   **Best for:** High-stakes decisions, execution bottlenecks, ambiguous constraints, and cross-functional deadlocks.
-*   **Key Capabilities:** Converting vague blockers into specific constraints, generating high-agency options, and driving 24-72h action plans.
+Rapid action under uncertainty with specific constraints, three options, ownership, feedback loops, and 24–72 hour plans.
 
-## Consulting frameworks
+#### [execution-operating-system](skills/execution-operating-system)
+Multi-week operating cadence with workstreams, critical path, capacity, dependencies, metrics, review gates, and escalation.
 
-### [consulting-issue-tree-mece](skills/consulting-issue-tree-mece)
-MECE issue-tree decomposition with formal validation gates and prioritized analysis backlog mapping.
+#### [luffy-mindset](skills/luffy-mindset)
+An audacious but reality-grounded action plan, activated only when the user explicitly requests the Luffy style.
 
-### [consulting-hypothesis-driven-80-20](skills/consulting-hypothesis-driven-80-20)
-Hypothesis-driven planning with falsifiable design, kill criteria, and 80/20 prioritization.
+### Consulting frameworks
 
-### [consulting-market-competition-analysis](skills/consulting-market-competition-analysis)
-Market sizing and competitive analysis with top-down/bottom-up triangulation and uncertainty-aware scenarios.
+#### [consulting-issue-tree-mece](skills/consulting-issue-tree-mece)
+MECE issue-tree decomposition with formal validation gates and a prioritized analysis backlog.
 
-### [consulting-portfolio-growth-strategy](skills/consulting-portfolio-growth-strategy)
-Portfolio allocation and growth sequencing using BCG, GE/McKinsey, and Ansoff logic.
+#### [consulting-hypothesis-driven-80-20](skills/consulting-hypothesis-driven-80-20)
+Falsifiable hypotheses, disconfirming signals, kill criteria, and 80/20 test prioritization.
+
+#### [consulting-market-competition-analysis](skills/consulting-market-competition-analysis)
+TAM/SAM/SOM triangulation, competitor and substitute mapping, source freshness, and scenario-aware implications.
+
+#### [consulting-portfolio-growth-strategy](skills/consulting-portfolio-growth-strategy)
+Portfolio allocation and growth sequencing using explicit scoring, sensitivity, capacity, and dependency checks.
+
+## Routing and composition
+
+Choose the skill that matches the primary job to be done, then hand off when the output changes type:
+
+| Starting need | First skill | Typical next handoff |
+| --- | --- | --- |
+| Gather and verify external evidence | `research-evidence-synthesis` | Market analysis, decision analysis, or pyramid communication |
+| Diagnose a complex problem | `consulting-issue-tree-mece` | Hypothesis-driven testing or decision analysis |
+| Test the most important explanations | `consulting-hypothesis-driven-80-20` | Execution operating system or decision analysis |
+| Compare consequential options | `decision-analysis-under-uncertainty` | High-agency, execution operating system, or pyramid communication |
+| Allocate resources across units | `consulting-portfolio-growth-strategy` | Execution operating system |
+| Unblock a 24–72 hour execution constraint | `high-agency` | Execution operating system or pyramid communication |
+| Run a multi-week initiative | `execution-operating-system` | Pyramid communication for progress reporting |
+| Prepare a conversation with behavior change or boundaries | `difficult-conversations-feedback` | Negotiation only if terms are exchanged |
+| Prepare a negotiation with reciprocal terms | `negotiation-voss-tactical-empathy` | Pyramid communication or decision analysis |
+| Draft an executive decision message | `pyramid-principle-structured-communication` | Final presentation layer |
+| Draft influence messaging with proof | `persuasion-cialdini-influence-design` | Research first if proof is unverified |
+| Request an explicitly Luffy-style motivational plan | `luffy-mindset` | High-agency or execution operating system if style is not requested |
 
 ## Shared output contract
 
-Most decision-oriented skills use the same section order:
+Decision-oriented skills use a consistent contract where appropriate:
+
 1. Context
 2. Decision or Recommendation
 3. Analysis
@@ -61,26 +83,42 @@ Most decision-oriented skills use the same section order:
 5. Next Actions
 6. Assumptions
 
-Specialized execution skills such as `high-agency` and `luffy-mindset` use their canonical templates instead of the generic contract.
+Specialized skills use their canonical templates. All skills must:
 
-This improves consistency across skills and makes outputs easier to review in high-stakes workflows.
+- distinguish Fact, Inference, Assumption, and Unknown;
+- state confidence and validation needs when evidence is incomplete;
+- include owner, due date, and success signal for actions;
+- cite external claims with source and date, or mark them unverified;
+- state material risks and the condition that would change the recommendation.
 
 ## Quality system
 
-The repository includes a reusable evaluation framework in [`quality/`](quality):
-- `quality/rubric.md`: common scoring rubric (1-5).
-- `quality/test-prompts.md`: 4 test prompts per skill (36 total).
-- `quality/eval-log-template.md`: logging template for manual evaluations.
-- `scripts/lint_skills.py`: local lint gate for skill structure, catalog coverage, and prompt coverage.
+The repository includes a deterministic contract benchmark and a manual response-evaluation protocol:
+
+- `quality/rubric.md`: common scoring rubric from 1–5.
+- `quality/test-prompts.md`: 4 test prompts per skill (52 total).
+- `quality/benchmark-manifest.json`: required sections, guardrails, and handoffs for every skill.
+- `quality/eval-log-template.md`: manual evaluation log with model, commit, and rubric fields.
+- `scripts/lint_skills.py`: structure, resource, catalog, and prompt coverage gate.
+- `scripts/validate_benchmark.py`: deterministic benchmark-contract validator.
 
 Target acceptance thresholds:
-- Per-skill average >= 4.2
-- No criterion below 3.5
-- Zero critical guardrail failures
+
+- Per-skill average >= 4.2.
+- No criterion below 3.5.
+- Zero critical guardrail failures.
+
+The deterministic benchmark never calls an external model or requires credentials. Generated responses are evaluated manually against the rubric and recorded with the model, date, evaluator, and commit.
 
 ## Validation workflow
 
-Run `python scripts/lint_skills.py` after any skill edit. Fix every reported issue before staging, committing, or pushing.
+```bash
+python scripts/lint_skills.py
+python3 scripts/validate_benchmark.py
+python3 -m unittest discover -s tests -v
+```
+
+Run all three checks after a skill edit. Fix every reported issue before opening a pull request.
 
 ## Installation
 
@@ -88,14 +126,7 @@ Run `python scripts/lint_skills.py` after any skill edit. Fix every reported iss
 npx skills add https://github.com/santos-sanz/lifeskills
 ```
 
-Once installed, these skills are automatically available to the agent. You can invoke them explicitly or rely on the agent's intent detection.
-
-**Examples:**
-
-*   *"Help me negotiate a vendor renewal for 2026 using tactical empathy."*
-*   *"Draft a persuasive email to the CFO using Cialdini's principles."*
-*   *"Create a MECE issue tree to analyze why user retention is dropping."*
-*   *"We are blocked on launch and everyone says it's impossible. Build a high-agency decision memo for the next 72 hours."*
+Once installed, these skills are automatically available to the agent. They can be invoked explicitly or selected from the user's intent when the activation boundary matches.
 
 ## Repository structure
 
@@ -108,17 +139,16 @@ skills/
     examples/
 scripts/
   lint_skills.py
+  validate_benchmark.py
 quality/
+  benchmark-manifest.json
   rubric.md
   test-prompts.md
   eval-log-template.md
+tests/
+  test_validate_benchmark.py
 ```
 
-## Design principles used in this version
+## Versioning and attribution
 
-This iteration integrated patterns commonly used in high-quality agent skills ecosystems:
-- Prompt contracts for predictable outputs.
-- Rubric-driven evaluation for quality control.
-- Explicit uncertainty and assumption tagging.
-- Ethical guardrails for persuasion and negotiation tasks.
-- Local lint gating before publish.
+The V2 contract is maintained as a backward-compatible content standard: existing skill directory names remain stable, while new headings and quality checks are additive. Framework source pointers and adaptation notes are documented in [`quality/framework-sources.md`](quality/framework-sources.md).

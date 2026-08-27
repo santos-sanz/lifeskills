@@ -11,9 +11,9 @@
 - Audacious and practical reframe:
 
 ## Top 3-7 Actions
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Risks and Countermoves
 - Risk 1 -> Countermove:

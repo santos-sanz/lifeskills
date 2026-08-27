@@ -13,18 +13,24 @@ Use $ARGUMENTS as initial context.
 - Storylines for presentations, updates, or board materials.
 - Any unclear draft that needs a single governing question and answer-first structure.
 
+## When not to use this skill
+- Do not use it to discover the answer when the primary need is research, root-cause analysis, or option evaluation.
+- Do not force a recommendation when the audience only needs a neutral factual status update.
+
 ## Required inputs
 - Audience and decision owner.
 - Governing question to answer.
 - Available evidence and major constraints.
+- Reading time, decision deadline, and known counterarguments.
 
 ## Workflow
 1. Define one governing question and one decision objective.
 2. Draft the answer first as a one-sentence BLUF.
 3. Build 3-5 MECE support points with parallel phrasing.
 4. Choose logic mode per level: deductive or inductive, not both.
-5. Add evidence, implication, and risk for each support point.
-6. End with a decision, owner, date, and immediate next action.
+5. Add evidence, implication, counterargument, and risk for each support point.
+6. Test whether the recommendation changes under the strongest credible counterargument.
+7. End with a decision, owner, date, and immediate next action.
 
 ## Ask-first questions
 Ask up to 3 questions before drafting:
@@ -36,6 +42,7 @@ Ask up to 3 questions before drafting:
 - If answers are incomplete, proceed with explicit assumptions.
 - Tag each assumption with confidence: high, medium, low.
 - Avoid fabricated data; request verification when confidence is low.
+- Label evidence as Fact, Inference, Assumption, or Unknown and include source and date for external claims.
 
 ## Output contract
 Always produce these sections in order:
@@ -45,12 +52,20 @@ Always produce these sections in order:
 4. Risks
 5. Next Actions
 6. Assumptions
+- Every action includes an owner, due date, and success signal.
+- Every recommendation states confidence and the condition that would change it.
 
 ## Guardrails
 - Keep one governing question; reject multi-question drift.
 - Do not mix recommendation with exploratory brainstorming in the same top level.
 - Use concrete language; avoid vague claims like "optimize" without mechanism.
 - Flag missing evidence when conclusions are not fully supported.
+- Do not hide material counterarguments, trade-offs, or decision dependencies.
+
+## Handoffs
+- Use `research-evidence-synthesis` when the storyline lacks verified evidence.
+- Use `decision-analysis-under-uncertainty` when the work still needs option comparison or decision modeling.
+- Use this skill as the final presentation layer after `consulting-issue-tree-mece`, `consulting-hypothesis-driven-80-20`, or `high-agency`.
 
 ## Resources
 - `references/pyramid-rules.md` - Rule set and anti-ambiguity checks.
